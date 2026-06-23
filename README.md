@@ -1,7 +1,7 @@
 # 🌟 Hi there, I'm Hasnaat Hussain! 👋
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Building%20the%20Future%20of%20AI&fontSize=50&animation=fadeIn" alt="Header" />
+  <img src="assets/profile_header.png" alt="Header" width="100%" />
 </div>
 
 <p align="center">
