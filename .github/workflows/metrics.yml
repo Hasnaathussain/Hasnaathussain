@@ -1,0 +1,59 @@
+name: GitHub Metrics
+
+on:
+  # Schedule updates daily at midnight
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run on push to master
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate GitHub Metrics Infographic
+        uses: lowlighter/metrics@latest
+        with:
+          # You will need to create a Personal Access Token (PAT) with appropriate scopes
+          # (repo, read:user, read:org) and save it as METRICS_TOKEN in your repo secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: Hasnaathussain
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Karachi
+          
+          # Languages Plugin
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          
+          # Coding Habits Plugin
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+          
+          # Lines of Code Plugin
+          plugin_lines: yes
+          
+          # Follow-up Plugin (Status of issues/PRs)
+          plugin_followup: yes
+          plugin_followup_sections: user

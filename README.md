@@ -107,6 +107,10 @@ Click below to expand and view technical post-mortems of major system bugs I sol
 </p>
 
 <p align="center">
+  <img src="github-metrics.svg" width="100%" alt="Hasnaat's Live GitHub Metrics Infographic" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasnaathussain&theme=react-dark&hide_border=true&bg_color=0d1117" width="100%" alt="Hasnaat's Activity Graph" />
 </p>
 
