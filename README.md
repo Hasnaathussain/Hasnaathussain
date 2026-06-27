@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Hasnaathussain/Hasnaathussain/main/assets/profile_header.png" alt="Hasnaat's Banner" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);" />
-</div>
+<p align="center">
+  <img src="assets/profile_header.png" width="100%" alt="Hasnaat Hussain - AI Systems Architect & Agentic Engineer" />
+</p>
 
 <h1 align="center">⚡ HASNAAT HUSSAIN ⚡</h1>
 
@@ -18,12 +18,7 @@
 
 ## 🧬 Engineering Philosophy & Focus
 
-I engineer systems at the intersection of **generative AI**, **multi-agent orchestration**, and **high-performance systems**. I specialize in optimizing LLM routing layers, resolving race conditions and state corruption in agentic memory models, and building reliable, scalable developer tooling.
-
-### 🎯 Key Domains
-* **🤖 Agentic AI & RAG:** State-machine workflows, dynamic tool validation, context-window optimization, memory middleware, and semantic graphs.
-* **💻 Advanced Systems & Algos:** Resolving precision formatting engines, async process orchestrators, concurrency control, and telemetry pipelines.
-* **🌐 Full Stack Architecture:** Creating responsive, high-performance web applications, serverless API design, and distributed databases.
+I design and engineer intelligent systems at the intersection of **Generative AI**, **multi-agent orchestration**, and **high-performance backend systems**. I specialize in optimizing LLM routing layers, resolving race conditions and state corruption in agentic memory models, and building reliable, scalable developer tooling.
 
 ---
 
@@ -33,7 +28,7 @@ I actively contribute to the core frameworks powering the modern AI/ML and data 
 
 | Repository | Stars | Contribution | Impact Area & Engineering Solution |
 | :--- | :--- | :--- | :--- |
-| <img src="https://github.com/pydantic.png" width="20"> **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** | `★ 8k+` | [PR #6096](https://github.com/pydantic/pydantic-ai/pull/6096) (Open) | **Gemini 3 Native Tooling Configuration:** Patched `GoogleModel` config generator to dynamically enforce and circulaate `include_server_side_tool_invocations` when built-in code executors are mixed with custom function tools. |
+| <img src="https://github.com/pydantic.png" width="20"> **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** | `★ 8k+` | [PR #6096](https://github.com/pydantic/pydantic-ai/pull/6096) (Open) | **Gemini 3 Native Tooling Configuration:** Patched `GoogleModel` config generator to dynamically enforce and circulate `include_server_side_tool_invocations` when built-in code executors are mixed with custom function tools. |
 | <img src="https://github.com/BerriAI.png" width="20"> **[BerriAI/litellm](https://github.com/BerriAI/litellm)** | `★ 51.5k` | [PR #31081](https://github.com/BerriAI/litellm/pull/31081) (Open)<br>[PR #31070](https://github.com/BerriAI/litellm/pull/31070) (Open) | **Router Hardening & Discovery Security:** Gracefully prunes unsupported model effort parameters on Anthropic Vertex/Bedrock endpoints, and secured discovery routes to prevent budget leakage for internal developers. |
 | <img src="https://github.com/plotly.png" width="20"> **[plotly/plotly.js](https://github.com/plotly/plotly.js)** | `★ 17k` | [PR #7768](https://github.com/plotly/plotly.js/pull/7768) (Open) | **Formatting Engine Precision:** Resolved broken formatting in `numFormat` logic for extremely small numbers, ensuring reliable decimal/exponential rendering alongside robust Jasmine coverage. |
 | <img src="https://github.com/getzep.png" width="20"> **[getzep/graphiti](https://github.com/getzep/graphiti)** | `★ 7k` | [PR #1604](https://github.com/getzep/graphiti/pull/1604) (Open) | **Context Constraint Control:** Fixed OpenAI-compatible client configurations to dynamically bind `LLMConfig.max_tokens` when integrating local LLM engines (Ollama, vLLM). |
@@ -43,9 +38,46 @@ I actively contribute to the core frameworks powering the modern AI/ML and data 
 
 ---
 
-## 🛠️ The Tech Toolbox
+## 🛠️ Interactive Engineering Deep-Dives
 
-### 🤖 Agentic & AI/ML Engineering
+Click below to expand and view technical post-mortems of major system bugs I solved:
+
+<details>
+<summary>🤖 <b>Pydantic AI: Code Execution & Native Tools Conflict</b></summary>
+<br>
+
+* **The Problem:** On Gemini 3 models, combining built-in `CodeExecutionTool` with custom user function tools crashed the API (HTTP 400) because `include_server_side_tool_invocations` was never set.
+* **The Fix:** Patched the config generator inside the `GoogleModel` adapter to ensure parameters are properly configured when mixing built-in code execution tools with custom local calling routines.
+</details>
+
+<details>
+<summary>🌐 <b>LiteLLM Proxy: Parameter Pruning & Budget Routing</b></summary>
+<br>
+
+* **The Problem:** Vertex AI and Bedrock backends crashed when router clients passed modern Anthropic parameters (e.g., `thinking`, `output_config`) to models that did not advertise support for them.
+* **The Fix:** Configured the Anthropic pass-through endpoint to dynamically strip unsupported effort parameters before routing requests, protecting clients against HTTP 400 validation errors.
+</details>
+
+<details>
+<summary>📊 <b>Plotly.js: Floating-Point exponential Axis Rounding</b></summary>
+<br>
+
+* **The Problem:** When graphing extremely small numbers where `String(v)` naturally returns exponential notation, Plotly's axis formatting engine sliced directly into the exponent, rendering broken labels.
+* **The Fix:** Replaced fragile regex slicing with clean mantissa isolation via `toFixed`, re-attaching the exponent at the end of the formatting pipeline.
+</details>
+
+<details>
+<summary>🦜🔗 <b>LangChain: Multi-Agent memory state corruption</b></summary>
+<br>
+
+* **The Problem:** When `SummarizationMiddleware` pruned agent history, it cleared parent `AIMessage` objects but left behind orphaned `ToolMessage`s, causing downstream validation crashes.
+* **The Fix:** Developed a cohesive pruning algorithm that validates parent-child message bonds to ensure paired messages are evicted together.
+</details>
+
+---
+
+## 🛠️ Tech Stack & Highlights
+
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Pydantic_AI-E25A97?style=flat-square&logo=pydantic&logoColor=white" />
@@ -53,34 +85,17 @@ I actively contribute to the core frameworks powering the modern AI/ML and data 
   <img src="https://img.shields.io/badge/LlamaIndex-FF6F61?style=flat-square&logo=llama&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-</p>
-
-### 💻 Advanced Systems & Languages
-<p align="left">
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-</p>
-
-### 🌐 Full Stack & Cloud Architecture
-<p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
 </p>
 
 ---
 
-## 📈 Analytics & Footprint
+## 📈 Developer Metrics & Habits
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Hasnaathussain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&icon_color=3b82f6" alt="Hasnaat's GitHub Stats" width="48%">
@@ -89,6 +104,10 @@ I actively contribute to the core frameworks powering the modern AI/ML and data 
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasnaathussain&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" width="50%">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasnaathussain&theme=react-dark&hide_border=true&bg_color=0d1117" width="100%" alt="Hasnaat's Activity Graph" />
 </p>
 
 ---
