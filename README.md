@@ -27,19 +27,20 @@ I thrive at the intersection of **generative AI** and **systems engineering**, c
 
 ---
 
-### 🚀 High-Impact Open Source Portfolio
+### 🚀 Open Source Contributions & Impact
 
-I have contributed over **15,000+ lines of code** across top-tier AI, ML, and data repositories, consistently debugging complex infrastructure and patching CI failures.
+I actively contribute to high-profile AI, machine learning, and data visualization repositories, solving complex systems-level issues, API integration edge cases, and memory state bugs.
 
-| 🟢 Repository | 📊 Impact | 💡 Key Contributions |
-| :--- | :--- | :--- |
-| <img src="https://github.com/BerriAI.png" width="20"> **[BerriAI/litellm](https://github.com/BerriAI/litellm)** | `+15,057 LOC` | • [PR #31081](https://github.com/BerriAI/litellm/pull/31081): Fixed internal user budget bypass for model discovery endpoints. <br> • [PR #31070](https://github.com/BerriAI/litellm/pull/31070): Hardened Anthropic `drop_params` for experimental pass-through handling. |
-| <img src="https://github.com/langchain-ai.png" width="20"> **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** | `+77 LOC` | • [PR #38382](https://github.com/langchain-ai/langchain/pull/38382): Engineered a deterministic pruning algorithm to prevent `SummarizationMiddleware` from retaining orphan `ToolMessages`, resolving a critical memory state bug. |
-| <img src="https://github.com/run-llama.png" width="20"> **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | `+51 LOC` | • [PR #22063](https://github.com/run-llama/llama_index/pull/22063): Enforced HTTP timeouts across 9 distinct integration packages to prevent catastrophic hanging. |
-| <img src="https://github.com/pydantic.png" width="20"> **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** | `+44 LOC` | • [PR #6019](https://github.com/pydantic/pydantic-ai/pull/6019): Enabled image `detail` parameters via `vendor_metadata` for the Groq vision model adapter. |
-| <img src="https://github.com/getzep.png" width="20"> **[getzep/graphiti](https://github.com/getzep/graphiti)** | `+37 LOC` | • [PR #1604](https://github.com/getzep/graphiti/pull/1604): Implemented dynamic binding for `LLMConfig.max_tokens` inside the core `OpenAIGenericClient`. |
-| <img src="https://github.com/huggingface.png" width="20"> **[huggingface/transformers](https://github.com/huggingface/transformers)** | `+19 LOC` | • Investigated and proposed architectural fixes for generation config and caching efficiency. |
-| <img src="https://github.com/keras-team.png" width="20"> **[keras-team/keras](https://github.com/keras-team/keras)** | `+7 LOC` | • Enhanced dataset pipeline handling logic to improve processing resilience. |
+| Repository | Stars | Pull Request | Contribution Summary |
+| :--- | :--- | :--- | :--- |
+| <img src="https://github.com/BerriAI.png" width="20"> **[BerriAI/litellm](https://github.com/BerriAI/litellm)** | `★ 51.5k` | [PR #31081](https://github.com/BerriAI/litellm/pull/31081)<br>[PR #31070](https://github.com/BerriAI/litellm/pull/31070) | • Bypassed budget checking routines on model discovery endpoints for internal users.<br>• Fixed Anthropic `drop_params` parameter pruning on pass-through routing paths. |
+| <img src="https://github.com/langchain-ai.png" width="20"> **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** | `★ 100k` | [PR #38382](https://github.com/langchain-ai/langchain/pull/38382) | • Resolved memory state corruption by preventing `SummarizationMiddleware` from retaining orphaned `ToolMessage`s. |
+| <img src="https://github.com/run-llama.png" width="20"> **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | `★ 50k` | [PR #22063](https://github.com/run-llama/llama_index/pull/22063) | • Enforced missing HTTP timeouts across 9 distinct integration packages to prevent production hangs. |
+| <img src="https://github.com/plotly.png" width="20"> **[plotly/plotly.js](https://github.com/plotly/plotly.js)** | `★ 17k` | [PR #7768](https://github.com/plotly/plotly.js/pull/7768) | • Corrected axis tick label rounding and formatting logic for very small numbers in exponential notation. |
+| <img src="https://github.com/pydantic.png" width="20"> **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** | `★ 8k+` | [PR #6019](https://github.com/pydantic/pydantic-ai/pull/6019) | • Added vision model image `detail` parameter propagation for the Groq provider adapter. |
+| <img src="https://github.com/getzep.png" width="20"> **[getzep/graphiti](https://github.com/getzep/graphiti)** | `★ 7k` | [PR #1604](https://github.com/getzep/graphiti/pull/1604) | • Implemented dynamic binding for `LLMConfig.max_tokens` inside `OpenAIGenericClient`. |
+| <img src="https://github.com/huggingface.png" width="20"> **[huggingface/transformers](https://github.com/huggingface/transformers)** | `★ 130k` | [PR #46793](https://github.com/huggingface/transformers/pull/46793) | • Fixed generation configuration to prevent `IndexError` on empty conversations in chat templates. |
+| <img src="https://github.com/keras-team.png" width="20"> **[keras-team/keras](https://github.com/keras-team/keras)** | `★ 60k` | [PR #22757](https://github.com/keras-team/keras/pull/22757) | • Added type-checking validation for trainable parameters in deserialized Keras objects. |
 
 ---
 
