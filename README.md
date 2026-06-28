@@ -2,16 +2,17 @@
   <img src="assets/profile_header.png" width="100%" alt="Hasnaat Hussain - AI Systems Architect & Agentic Engineer" />
 </p>
 
-<h1 align="center">⚡ Hasnaat Hussain ⚡</h1> 
+<h1 align="center">⚡ HASNAAT HUSSAIN ⚡</h1>
 
 <p align="center">
   <strong>AI Systems Architect • Agentic Engineer • Advanced Systems & Algorithms • Full-Stack Developer</strong>
 </p>
+
 <p align="center">
   <a href="https://github.com/Hasnaathussain"><img src="https://img.shields.io/github/followers/Hasnaathussain?label=Followers&style=for-the-badge&color=2563EB&logo=github&logoColor=white" alt="GitHub followers"></a>
   <a href="https://github.com/Hasnaathussain?tab=repositories"><img src="https://img.shields.io/github/stars/Hasnaathussain?style=for-the-badge&color=8B5CF6&logo=github&logoColor=white" alt="GitHub stars"></a>
   <img src="https://img.shields.io/badge/Specialization-Agentic%20Orchestration-06B6D4?style=for-the-badge&logo=openai&logoColor=white" alt="Specialization">
-
+  <img src="https://komarev.com/ghpvc/?username=Hasnaathussain&color=3b82f6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
 ---
@@ -26,9 +27,13 @@ I design and engineer intelligent systems at the intersection of **Generative AI
 
 I actively contribute to the core frameworks powering the modern AI/ML and data visualization ecosystems. Here is my live portfolio:
 
-| Repository | Stars | Contribution | Impact Area & Engineering Solution | 
+| Repository | Stars | Contribution | Impact Area & Engineering Solution |
 | :--- | :--- | :--- | :--- |
-| <img src="https://github.com/pydantic.png" width="20"> **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** | `★ 8k+` | [PR #6096](https://github.com/pydantic/pydantic-ai/pull/6096) (Open)<br>[PR #6098](https://github.com/pydantic/pydantic-ai/pull/6098) (Open) | **Gemini 3 & Bedrock Converse Adapter:** Gated Gemini 3 tool configurations, and resolved Bedrock Converse API `ValidationException` when user turns carry media/attachment files immediately after tool results. |
+| <img src="https://github.com/pydantic.png" width="20"> **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** | `★ 8k+` | [PR #6105](https://github.com/pydantic/pydantic-ai/pull/6105) (Closed)<br>[PR #6096](https://github.com/pydantic/pydantic-ai/pull/6096) (Open)<br>[PR #6098](https://github.com/pydantic/pydantic-ai/pull/6098) (Open) | **Gemini 3, Bedrock Converse, & TestModel metadata:** Gated Gemini 3 tool configurations, resolved Bedrock Converse API `ValidationException` when user turns carry media/attachment files immediately after tool results, and aligned provider name metadata in TestModel responses. |
+| <img src="https://github.com/bentoml.png" width="20"> **[bentoml/BentoML](https://github.com/bentoml/BentoML)** | `★ 15k` | [PR #5643](https://github.com/bentoml/BentoML/pull/5643) (Open) | **SDK Robustness:** Prevented index crash when parsing unparameterized bare generic return annotations (like `t.Iterator`, `t.Generator`). |
+| <img src="https://github.com/AnswerDotAI.png" width="20"> **[AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml)** | `★ 10k` | [PR #894](https://github.com/AnswerDotAI/fasthtml/pull/894) (Open) | **Wrapper Isolation:** Renamed internal parameter from `f` to `_f` in `_handle` to prevent keyword parameter naming conflicts when developers accept an `f` parameter in endpoints. |
+| <img src="https://github.com/tobymao.png" width="20"> **[tobymao/sqlglot](https://github.com/tobymao/sqlglot)** | `★ 6k` | [PR #7807](https://github.com/tobymao/sqlglot/pull/7807) (Open) | **SQL AST Parser Precision:** Restructured parentheses tuple parsing priorities to retain multiple items inside nested SQLite tuples when containing subqueries. |
+| <img src="https://github.com/crewAIInc.png" width="20"> **[crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)** | `★ 20k` | [PR #6377](https://github.com/crewAIInc/crewAI/pull/6377) (Open) | **Tool Return Validation:** Automatically serialize custom tool outputs containing dictionary/list structures to valid JSON strings to prevent agent runtime failures. |
 | <img src="https://github.com/BerriAI.png" width="20"> **[BerriAI/litellm](https://github.com/BerriAI/litellm)** | `★ 51.5k` | [PR #31081](https://github.com/BerriAI/litellm/pull/31081) (Open)<br>[PR #31070](https://github.com/BerriAI/litellm/pull/31070) (Open) | **Router Hardening & Discovery Security:** Gracefully prunes unsupported model effort parameters on Anthropic Vertex/Bedrock endpoints, and secured discovery routes to prevent budget leakage for internal developers. |
 | <img src="https://github.com/plotly.png" width="20"> **[plotly/plotly.js](https://github.com/plotly/plotly.js)** | `★ 17k` | [PR #7768](https://github.com/plotly/plotly.js/pull/7768) (Open) | **Formatting Engine Precision:** Resolved broken formatting in `numFormat` logic for extremely small numbers, ensuring reliable decimal/exponential rendering alongside robust Jasmine coverage. |
 | <img src="https://github.com/getzep.png" width="20"> **[getzep/graphiti](https://github.com/getzep/graphiti)** | `★ 7k` | [PR #1604](https://github.com/getzep/graphiti/pull/1604) (Open) | **Context Constraint Control:** Fixed OpenAI-compatible client configurations to dynamically bind `LLMConfig.max_tokens` when integrating local LLM engines (Ollama, vLLM). |
@@ -37,7 +42,6 @@ I actively contribute to the core frameworks powering the modern AI/ML and data 
 | <img src="https://github.com/langchain-ai.png" width="20"> **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** | `★ 100k` | [PR #38382](https://github.com/langchain-ai/langchain/pull/38382) (Closed) | **Multi-Agent Memory Eviction:** Designed a deterministic pruning algorithm in `SummarizationMiddleware` to prevent orphaned `ToolMessage` corruption, blocking downstream HTTP 400 validation issues. |
 | <img src="https://github.com/huggingface.png" width="20"> **[huggingface/transformers](https://github.com/huggingface/transformers)** | `★ 130k` | [PR #46793](https://github.com/huggingface/transformers/pull/46793) (Closed) | **Chat Template Resiliency:** Fixed `transformers` generation configurations to robustly handle edge cases with empty conversations, preventing runtime `IndexError` exceptions. |
 | <img src="https://github.com/keras-team.png" width="20"> **[keras-team/keras](https://github.com/keras-team/keras)** | `★ 60k` | [PR #22757](https://github.com/keras-team/keras/pull/22757) (Closed) | **Deserialization Validation:** Introduced strict type checks for trainable parameters during Keras deserialization runs to prevent model compile-time issues. |
-
 
 ---
 
