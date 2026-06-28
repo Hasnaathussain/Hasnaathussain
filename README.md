@@ -37,6 +37,8 @@ I actively contribute to the core frameworks powering the modern AI/ML and data 
 | <img src="https://github.com/langchain-ai.png" width="20"> **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** | `★ 100k` | [PR #38382](https://github.com/langchain-ai/langchain/pull/38382) (Closed) | **Multi-Agent Memory Eviction:** Designed a deterministic pruning algorithm in `SummarizationMiddleware` to prevent orphaned `ToolMessage` corruption, blocking downstream HTTP 400 validation issues. |
 | <img src="https://github.com/huggingface.png" width="20"> **[huggingface/transformers](https://github.com/huggingface/transformers)** | `★ 130k` | [PR #46793](https://github.com/huggingface/transformers/pull/46793) (Closed) | **Chat Template Resiliency:** Fixed `transformers` generation configurations to robustly handle edge cases with empty conversations, preventing runtime `IndexError` exceptions. |
 | <img src="https://github.com/keras-team.png" width="20"> **[keras-team/keras](https://github.com/keras-team/keras)** | `★ 60k` | [PR #22757](https://github.com/keras-team/keras/pull/22757) (Closed) | **Deserialization Validation:** Introduced strict type checks for trainable parameters during Keras deserialization runs to prevent model compile-time issues. |
+![](https://komarev.com/ghpvc/?username=hasnaathussain)
+
 
 ---
 
