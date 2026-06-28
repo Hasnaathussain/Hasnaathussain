@@ -12,7 +12,8 @@
   <a href="https://github.com/Hasnaathussain"><img src="https://img.shields.io/github/followers/Hasnaathussain?label=Followers&style=for-the-badge&color=2563EB&logo=github&logoColor=white" alt="GitHub followers"></a>
   <a href="https://github.com/Hasnaathussain?tab=repositories"><img src="https://img.shields.io/github/stars/Hasnaathussain?style=for-the-badge&color=8B5CF6&logo=github&logoColor=white" alt="GitHub stars"></a>
   <img src="https://img.shields.io/badge/Specialization-Agentic%20Orchestration-06B6D4?style=for-the-badge&logo=openai&logoColor=white" alt="Specialization">
-  ![](https://komarev.com/ghpvc/?username=hasnaathussain) 
+  <img src="https://komarev.com" alt="Profile Views" />
+
 </p>
 
 ---
