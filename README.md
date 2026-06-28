@@ -12,6 +12,7 @@
   <a href="https://github.com/Hasnaathussain"><img src="https://img.shields.io/github/followers/Hasnaathussain?label=Followers&style=for-the-badge&color=2563EB&logo=github&logoColor=white" alt="GitHub followers"></a>
   <a href="https://github.com/Hasnaathussain?tab=repositories"><img src="https://img.shields.io/github/stars/Hasnaathussain?style=for-the-badge&color=8B5CF6&logo=github&logoColor=white" alt="GitHub stars"></a>
   <img src="https://img.shields.io/badge/Specialization-Agentic%20Orchestration-06B6D4?style=for-the-badge&logo=openai&logoColor=white" alt="Specialization">
+  ![](https://komarev.com/ghpvc/?username=hasnaathussain) 
 </p>
 
 ---
@@ -26,7 +27,7 @@ I design and engineer intelligent systems at the intersection of **Generative AI
 
 I actively contribute to the core frameworks powering the modern AI/ML and data visualization ecosystems. Here is my live portfolio:
 
-| Repository | Stars | Contribution | Impact Area & Engineering Solution |
+| Repository | Stars | Contribution | Impact Area & Engineering Solution | 
 | :--- | :--- | :--- | :--- |
 | <img src="https://github.com/pydantic.png" width="20"> **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** | `★ 8k+` | [PR #6096](https://github.com/pydantic/pydantic-ai/pull/6096) (Open)<br>[PR #6098](https://github.com/pydantic/pydantic-ai/pull/6098) (Open) | **Gemini 3 & Bedrock Converse Adapter:** Gated Gemini 3 tool configurations, and resolved Bedrock Converse API `ValidationException` when user turns carry media/attachment files immediately after tool results. |
 | <img src="https://github.com/BerriAI.png" width="20"> **[BerriAI/litellm](https://github.com/BerriAI/litellm)** | `★ 51.5k` | [PR #31081](https://github.com/BerriAI/litellm/pull/31081) (Open)<br>[PR #31070](https://github.com/BerriAI/litellm/pull/31070) (Open) | **Router Hardening & Discovery Security:** Gracefully prunes unsupported model effort parameters on Anthropic Vertex/Bedrock endpoints, and secured discovery routes to prevent budget leakage for internal developers. |
@@ -37,7 +38,6 @@ I actively contribute to the core frameworks powering the modern AI/ML and data 
 | <img src="https://github.com/langchain-ai.png" width="20"> **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** | `★ 100k` | [PR #38382](https://github.com/langchain-ai/langchain/pull/38382) (Closed) | **Multi-Agent Memory Eviction:** Designed a deterministic pruning algorithm in `SummarizationMiddleware` to prevent orphaned `ToolMessage` corruption, blocking downstream HTTP 400 validation issues. |
 | <img src="https://github.com/huggingface.png" width="20"> **[huggingface/transformers](https://github.com/huggingface/transformers)** | `★ 130k` | [PR #46793](https://github.com/huggingface/transformers/pull/46793) (Closed) | **Chat Template Resiliency:** Fixed `transformers` generation configurations to robustly handle edge cases with empty conversations, preventing runtime `IndexError` exceptions. |
 | <img src="https://github.com/keras-team.png" width="20"> **[keras-team/keras](https://github.com/keras-team/keras)** | `★ 60k` | [PR #22757](https://github.com/keras-team/keras/pull/22757) (Closed) | **Deserialization Validation:** Introduced strict type checks for trainable parameters during Keras deserialization runs to prevent model compile-time issues. |
-![](https://komarev.com/ghpvc/?username=hasnaathussain)
 
 
 ---
