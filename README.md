@@ -105,13 +105,22 @@ Click below to expand and view technical post-mortems of major system bugs I sol
 
 ## 📈 Developer Metrics & Habits
 
+<!-- Snake Contribution Grid -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hasnaathussain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&icon_color=3b82f6" alt="Hasnaat's GitHub Stats" width="48%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hasnaathussain&theme=tokyonight&hide_border=true&background=0d1117&stroke=3b82f6&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" alt="Hasnaat's GitHub Streak" width="48%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hasnaathussain/Hasnaathussain/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hasnaathussain/Hasnaathussain/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Hasnaathussain/Hasnaathussain/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasnaathussain&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" width="50%">
+  <img src="https://github-stats-extended.vercel.app/api?username=Hasnaathussain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&icon_color=3b82f6" alt="Hasnaat's GitHub Stats" width="48%">
+  <img src="https://streak-stats.demolab.com/?user=Hasnaathussain&theme=tokyonight&hide_border=true&background=0d1117&stroke=3b82f6&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" alt="Hasnaat's GitHub Streak" width="48%">
+</p>
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hasnaathussain&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" width="50%">
 </p>
 
 <p align="center">
