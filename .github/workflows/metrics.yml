@@ -38,14 +38,14 @@ jobs:
           # Achievements/Badges Plugin (Highly visual)
           plugin_achievements: yes
           plugin_achievements_secrets: no
-          plugin_achievements_display: detailed
-          plugin_achievements_limit: 8
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 5
           
           # Notable OSS Contributions Plugin (Detects high-profile repos like langchain, litellm, transformers)
           plugin_notable: yes
           plugin_notable_from: all
           plugin_notable_types: commit, pull_request
-          plugin_notable_repositories: yes
+          plugin_notable_repositories: no
           plugin_notable_limit: 5
           
           # Languages Plugin (Deep analysis)
@@ -59,13 +59,8 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           
-          # Coding Habits Plugin
-          plugin_habits: yes
-          plugin_habits_from: 100
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_trim: yes
+          # Coding Habits Plugin (Disabled due to upstream library TypeError: Cannot destructure property 'author')
+          plugin_habits: no
           
           # Lines of Code Plugin
           plugin_lines: yes
