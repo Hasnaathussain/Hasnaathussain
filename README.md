@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/profile_header.png" width="100%" alt="Hasnaat Hussain - AI Systems Architect & Agentic Engineer" />
+</p>
+
 <h1 align="center">⚡ HASNAAT HUSSAIN ⚡</h1>
 
 <p align="center">
