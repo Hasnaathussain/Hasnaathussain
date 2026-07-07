@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
 
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
 
-**22 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, and more. Pending in `flask`, `jinja`, `werkzeug`, `crewAI`, `keras`, `litellm`, and others.
+**20 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, and more. Open in `flask`, `jinja`, `werkzeug`, `crewAI`, `keras`, `litellm`, and others.
 
 </details>
 
