@@ -110,8 +110,8 @@ Click below to expand and view technical post-mortems of major system bugs I sol
 </p>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Hasnaathussain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&icon_color=3b82f6" alt="Hasnaat's GitHub Stats" width="48%">
-  <img src="https://streak-stats.demolab.com/?user=Hasnaathussain&theme=tokyonight&hide_border=true&background=0d1117&stroke=3b82f6&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" alt="Hasnaat's GitHub Streak" width="48%">
+  <img src="assets/github-stats.svg" alt="Hasnaat's GitHub Stats" width="48%">
+  <img src="assets/streak.svg" alt="Hasnaat's GitHub Streak" width="48%">
 </p>
 
 <p align="center">
