@@ -47,13 +47,9 @@ I spend a lot of time reading source code of projects that millions of people re
 
 <div align="center">
 
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=Hasnaathussain&theme=tokyonight-duo&hide_border=true&date_format=j%20M%5B%20Y%5D&background=0D1117&ring=7EE787&fire=E3B341&currStreakLabel=7EE787&sideLabels=484F58&sideNums=A5D6FF&currStreakNum=A5D6FF&dates=484F58&stroke=21262D" alt="GitHub Streak" height="155"/>
-</a>
+<img src="https://github-readme-streak-stats-hazel.vercel.app?user=Hasnaathussain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=7EE787&fire=E3B341&currStreakLabel=7EE787&sideLabels=484F58&sideNums=A5D6FF&currStreakNum=A5D6FF&dates=484F58&stroke=21262D" alt="GitHub Streak" height="160"/>
 &nbsp;&nbsp;
-<a href="https://github.com/Hasnaathussain">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hasnaathussain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=A5D6FF&text_color=C9D1D9&ring_color=7EE787" alt="GitHub Stats" height="155"/>
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=Hasnaathussain&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=A5D6FF&text_color=C9D1D9" alt="GitHub Stats" height="160"/>
 
 </div>
 
@@ -65,7 +61,7 @@ I spend a lot of time reading source code of projects that millions of people re
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasnaathussain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9&langs_count=8" alt="Top Languages" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasnaathussain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9&langs_count=8&count_private=true" alt="Top Languages" height="150"/>
 
 </div>
 
