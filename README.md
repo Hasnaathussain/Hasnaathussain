@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
 
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
 
-**20 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, and more. Open in `flask`, `jinja`, `werkzeug`, `crewAI`, `keras`, `litellm`, and others.
+**16 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, and more. Open in `crewAI`, `keras`, `litellm`, and others.
 
 </details>
 
@@ -89,10 +89,6 @@ I spend a lot of time reading source code of projects that millions of people re
 |:--------|:---|:------:|:-------|
 | **pydantic/pydantic-ai** | [#6098](https://github.com/pydantic/pydantic-ai/pull/6098) | ✅ Merged | Bedrock provider fix |
 | **tobymao/sqlglot** | [#7807](https://github.com/tobymao/sqlglot/pull/7807) | ✅ Merged | SQL AST logic fix |
-| **pallets/jinja** | [#2212](https://github.com/pallets/jinja/pull/2212) | 🟡 Open | Python 3.14 LRU cache crash fix |
-| **pallets/flask** | [#6083](https://github.com/pallets/flask/pull/6083) | 🟡 Open | pytest 9.1 compatibility fix |
-| **pallets/werkzeug** | [#3204](https://github.com/pallets/werkzeug/pull/3204) | 🟡 Open | URI empty userinfo fix |
-| **pallets/click** | [#3668](https://github.com/pallets/click/pull/3668) | 🟡 Open | Progress bar flush fix |
 | **BerriAI/litellm** | [#31081](https://github.com/BerriAI/litellm/pull/31081) | 🟡 Open | Budget reset bypass fix |
 | **keras-team/keras** | [#23222](https://github.com/keras-team/keras/pull/23222) | 🟡 Open | class_weight training fix |
 | **crewAIInc/crewAI** | [#6377](https://github.com/crewAIInc/crewAI/pull/6377) | 🟡 Open | Tool JSON serialization fix |
