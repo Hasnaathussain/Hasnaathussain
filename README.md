@@ -125,5 +125,9 @@ I spend a lot of time reading source code of projects that millions of people re
 ---
 
 <div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Hasnaathussain&style=flat-square&color=7ee787&label=PROFILE+VIEWS&abbreviated=true)
+
 <sub><code>0D1117</code> · Built to last, not to impress · <code>7EE787</code></sub>
+
 </div>
