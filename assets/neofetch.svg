@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code',Consolas,monospace" width="980px" height="540px" font-size="14px">
+<style>
+.key   { fill: #7ee787; }
+.val   { fill: #a5d6ff; }
+.dim   { fill: #484f58; }
+.add   { fill: #3fb950; }
+.del   { fill: #f85149; }
+.head  { fill: #e3b341; }
+.title { fill: #ffffff; font-weight: bold; font-size: 15px; }
+text, tspan { white-space: pre; }
+</style>
+
+<!-- Background -->
+<rect width="980px" height="540px" fill="#0d1117" rx="12"/>
+<!-- Top bar -->
+<rect width="980px" height="28px" fill="#161b22" rx="12"/>
+<rect width="980px" height="14px" y="14" fill="#161b22"/>
+<!-- Traffic lights -->
+<circle cx="20" cy="14" r="6" fill="#f85149"/>
+<circle cx="40" cy="14" r="6" fill="#e3b341"/>
+<circle cx="60" cy="14" r="6" fill="#3fb950"/>
+<!-- Title bar text -->
+<text x="490" y="19" fill="#484f58" text-anchor="middle" font-size="12px">Hasnaathussain ~ bash</text>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- LEFT: ASCII Art -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<text x="18" y="58" fill="#7ee787" font-size="13px">
+<tspan x="18" y="58">  ██╗  ██╗ █████╗ ███████╗███╗   ██╗ █████╗  █████╗ ████████╗</tspan>
+<tspan x="18" y="76">  ██║  ██║██╔══██╗██╔════╝████╗  ██║██╔══██╗██╔══██╗╚══██╔══╝</tspan>
+<tspan x="18" y="94">  ███████║███████║███████╗██╔██╗ ██║███████║███████║   ██║   </tspan>
+<tspan x="18" y="112">  ██╔══██║██╔══██║╚════██║██║╚██╗██║██╔══██║██╔══██║   ██║   </tspan>
+<tspan x="18" y="130">  ██║  ██║██║  ██║███████║██║ ╚████║██║  ██║██║  ██║   ██║   </tspan>
+<tspan x="18" y="148">  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   </tspan>
+</text>
+
+<!-- Separator line -->
+<line x1="18" y1="162" x2="530" y2="162" stroke="#21262d" stroke-width="1"/>
+
+<!-- Sub-label -->
+<text x="18" y="180" fill="#484f58" font-size="12px">
+<tspan x="18" y="180">  AI Systems Architect  •  Agentic Engineer  •  OSS Contributor</tspan>
+</text>
+
+<!-- Color blocks row -->
+<rect x="18"  y="190" width="22" height="12" fill="#f85149" rx="2"/>
+<rect x="44"  y="190" width="22" height="12" fill="#e3b341" rx="2"/>
+<rect x="70"  y="190" width="22" height="12" fill="#3fb950" rx="2"/>
+<rect x="96"  y="190" width="22" height="12" fill="#a5d6ff" rx="2"/>
+<rect x="122" y="190" width="22" height="12" fill="#7ee787" rx="2"/>
+<rect x="148" y="190" width="22" height="12" fill="#d2a8ff" rx="2"/>
+<rect x="174" y="190" width="22" height="12" fill="#ffa657" rx="2"/>
+<rect x="200" y="190" width="22" height="12" fill="#0d1117" rx="2" stroke="#484f58" stroke-width="1"/>
+
+<!-- Separator -->
+<line x1="18" y1="210" x2="530" y2="210" stroke="#21262d" stroke-width="1"/>
+
+<!-- Left bottom stats block -->
+<text x="18" y="234" fill="#7ee787" font-size="13px">
+<tspan x="18" y="234" class="head">  — OSS Impact (22 Contributions) ————————————</tspan>
+</text>
+<text x="18" y="258" font-size="13px">
+<tspan x="18" y="258">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">pallets/jinja</tspan>   <tspan class="dim">............ </tspan><tspan class="val">PR #2212  — LRUCache Python 3.14 fix</tspan></tspan>
+<tspan x="18" y="278">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">pallets/flask</tspan>   <tspan class="dim">........... </tspan><tspan class="val">PR #6083  — pytest 9.1 compat fix</tspan></tspan>
+<tspan x="18" y="298">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">pallets/werkzeug</tspan> <tspan class="dim">......... </tspan><tspan class="val">PR #3204  — URL empty userinfo fix</tspan></tspan>
+<tspan x="18" y="318">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">pallets/click</tspan>   <tspan class="dim">........... </tspan><tspan class="val">PR #3668  — Progressbar flush fix</tspan></tspan>
+<tspan x="18" y="338">  <tspan fill="#e3b341">★</tspan> <tspan fill="#e3b341">pydantic/pydantic-ai</tspan> <tspan class="dim">......</tspan> <tspan class="val">PR #6098  — MERGED ✓ Bedrock fix</tspan></tspan>
+<tspan x="18" y="358">  <tspan fill="#e3b341">★</tspan> <tspan fill="#e3b341">tobymao/sqlglot</tspan> <tspan class="dim">......... </tspan><tspan class="val">PR #7807  — MERGED ✓ SQL AST fix</tspan></tspan>
+<tspan x="18" y="378">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">BerriAI/litellm</tspan>  <tspan class="dim">......... </tspan><tspan class="val">PR #31081 — Budget bypass fix</tspan></tspan>
+<tspan x="18" y="398">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">keras-team/keras</tspan> <tspan class="dim">......... </tspan><tspan class="val">PR #23222 — class_weight fix</tspan></tspan>
+<tspan x="18" y="418">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">crewAIInc/crewAI</tspan> <tspan class="dim">......... </tspan><tspan class="val">PR #6377  — Tool JSON serialization</tspan></tspan>
+<tspan x="18" y="438">  <tspan fill="#484f58">···</tspan> <tspan fill="#484f58">+ 13 more PRs across 15 flagship repos (400k★+)</tspan></tspan>
+</text>
+
+<line x1="18" y1="452" x2="530" y2="452" stroke="#21262d" stroke-width="1"/>
+
+<!-- Contact block bottom -->
+<text x="18" y="474" font-size="13px">
+<tspan x="18" y="474">  <tspan class="dim">$</tspan> <tspan class="key">git</tspan> <tspan class="val">remote -v</tspan><tspan class="dim"> → hasnaat.hussain.2@gmail.com</tspan></tspan>
+<tspan x="18" y="494">  <tspan class="dim">$</tspan> <tspan class="key">curl</tspan> <tspan class="val">linkedin.com/in/hasnaathussain</tspan></tspan>
+<tspan x="18" y="514">  <tspan class="dim">$</tspan> <tspan class="key">ssh</tspan> <tspan class="val">github.com/Hasnaathussain</tspan></tspan>
+</text>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- RIGHT PANEL: Stats -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- Vertical divider -->
+<line x1="548" y1="36" x2="548" y2="520" stroke="#21262d" stroke-width="1"/>
+
+<text x="558" y="58" font-size="14px">
+<!-- Username header -->
+<tspan x="558" y="58" class="title">Hasnaathussain</tspan>
+<tspan class="dim"> ─────────────────────────────</tspan>
+</text>
+
+<text x="558" y="82" font-size="13px">
+<tspan x="558" y="82">  <tspan class="dim">. </tspan><tspan class="key">Role</tspan><tspan class="dim">:          .......</tspan> <tspan class="val">AI Systems Architect</tspan></tspan>
+<tspan x="558" y="100">  <tspan class="dim">. </tspan><tspan class="key">Location</tspan><tspan class="dim">:      .....</tspan> <tspan class="val">Islamabad, Pakistan</tspan></tspan>
+<tspan x="558" y="118">  <tspan class="dim">. </tspan><tspan class="key">IDE</tspan><tspan class="dim">:          .......</tspan> <tspan class="val">VSCode + Cursor</tspan></tspan>
+<tspan x="558" y="136">  <tspan class="dim">. </tspan><tspan class="key">Shell</tspan><tspan class="dim">:        ......</tspan> <tspan class="val">PowerShell / bash</tspan></tspan>
+<tspan x="558" y="154">  <tspan class="dim">. </tspan><tspan class="key">Focus</tspan><tspan class="dim">:        ......</tspan> <tspan class="val">Agentic Orchestration</tspan></tspan>
+</text>
+
+<!-- Separator -->
+<line x1="558" y1="168" x2="966" y2="168" stroke="#21262d" stroke-width="1"/>
+
+<text x="558" y="190" font-size="13px">
+<tspan x="558" y="190">  <tspan class="dim">. </tspan><tspan class="key">Languages.Primary</tspan><tspan class="dim">: ... </tspan><tspan class="val">Python, TypeScript</tspan></tspan>
+<tspan x="558" y="208">  <tspan class="dim">. </tspan><tspan class="key">Languages.ML</tspan><tspan class="dim">: .......</tspan> <tspan class="val">PyTorch, HuggingFace</tspan></tspan>
+<tspan x="558" y="226">  <tspan class="dim">. </tspan><tspan class="key">Languages.Backend</tspan><tspan class="dim">: ... </tspan><tspan class="val">FastAPI, Next.js</tspan></tspan>
+<tspan x="558" y="244">  <tspan class="dim">. </tspan><tspan class="key">Frameworks.Agent</tspan><tspan class="dim">: .... </tspan><tspan class="val">pydantic-ai, crewAI</tspan></tspan>
+<tspan x="558" y="262">  <tspan class="dim">. </tspan><tspan class="key">Frameworks.LLM</tspan><tspan class="dim">: ...... </tspan><tspan class="val">LangChain, LlamaIndex</tspan></tspan>
+</text>
+
+<!-- Separator -->
+<line x1="558" y1="278" x2="966" y2="278" stroke="#21262d" stroke-width="1"/>
+
+<text x="558" y="298" font-size="13px">
+<tspan x="558" y="298">  <tspan class="dim">— </tspan><tspan class="head">GitHub Stats</tspan> <tspan class="dim">───────────────────────────────</tspan></tspan>
+<tspan x="558" y="318">  <tspan class="dim">. </tspan><tspan class="key">Repos</tspan><tspan class="dim">: ...... </tspan><tspan class="val">27</tspan>  <tspan class="dim">{ Contributed: </tspan><tspan class="val">133</tspan><tspan class="dim"> }</tspan></tspan>
+<tspan x="558" y="336">  <tspan class="dim">. </tspan><tspan class="key">Followers</tspan><tspan class="dim">: ... </tspan><tspan class="val">11</tspan></tspan>
+<tspan x="558" y="354">  <tspan class="dim">. </tspan><tspan class="key">OSS PRs</tspan><tspan class="dim">: ...... </tspan><tspan class="val">22</tspan> <tspan class="dim">| Merged: </tspan><tspan class="add">2</tspan></tspan>
+<tspan x="558" y="372">  <tspan class="dim">. </tspan><tspan class="key">Repos Reached</tspan><tspan class="dim">:  </tspan><tspan class="val">400k★+</tspan> <tspan class="dim">combined</tspan></tspan>
+</text>
+
+<!-- Separator -->
+<line x1="558" y1="388" x2="966" y2="388" stroke="#21262d" stroke-width="1"/>
+
+<text x="558" y="408" font-size="13px">
+<tspan x="558" y="408">  <tspan class="dim">— </tspan><tspan class="head">Currently Working On</tspan> <tspan class="dim">──────────────────</tspan></tspan>
+<tspan x="558" y="428">  <tspan class="dim">. </tspan><tspan class="key">Mission</tspan><tspan class="dim">: .... </tspan><tspan class="val">Build AI that actually works</tspan></tspan>
+<tspan x="558" y="446">  <tspan class="dim">. </tspan><tspan class="key">Stack</tspan><tspan class="dim">: ...... </tspan><tspan class="val">Agents + Memory + Infra</tspan></tspan>
+<tspan x="558" y="464">  <tspan class="dim">. </tspan><tspan class="key">OSS Goal</tspan><tspan class="dim">: ... </tspan><tspan class="val">Core infra, not sidequests</tspan></tspan>
+</text>
+
+<!-- Separator -->
+<line x1="558" y1="480" x2="966" y2="480" stroke="#21262d" stroke-width="1"/>
+
+<!-- Color swatch labels -->
+<rect x="558" y="492" width="12" height="12" fill="#f85149" rx="2"/>
+<text x="576" y="503" fill="#484f58" font-size="11px">Error</text>
+<rect x="618" y="492" width="12" height="12" fill="#e3b341" rx="2"/>
+<text x="636" y="503" fill="#484f58" font-size="11px">Warning</text>
+<rect x="690" y="492" width="12" height="12" fill="#3fb950" rx="2"/>
+<text x="708" y="503" fill="#484f58" font-size="11px">Success</text>
+<rect x="762" y="492" width="12" height="12" fill="#a5d6ff" rx="2"/>
+<text x="780" y="503" fill="#484f58" font-size="11px">Info</text>
+<rect x="816" y="492" width="12" height="12" fill="#d2a8ff" rx="2"/>
+<text x="834" y="503" fill="#484f58" font-size="11px">Accent</text>
+<rect x="882" y="492" width="12" height="12" fill="#ffa657" rx="2"/>
+<text x="900" y="503" fill="#484f58" font-size="11px">Key</text>
+
+<!-- Bottom fade bar -->
+<line x1="18" y1="526" x2="966" y2="526" stroke="#21262d" stroke-width="1"/>
+<text x="490" y="538" fill="#21262d" text-anchor="middle" font-size="10px">github.com/Hasnaathussain</text>
+</svg>
