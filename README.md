@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
 
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
 
-**16 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, and more. Open in `crewAI`, `keras`, `litellm`, and others.
+**18 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, and more. Open in `crewAI`, `keras`, `litellm`, and others.
 
 </details>
 
@@ -92,6 +92,8 @@ I spend a lot of time reading source code of projects that millions of people re
 | **BerriAI/litellm** | [#31081](https://github.com/BerriAI/litellm/pull/31081) | 🟡 Open | Budget reset bypass fix |
 | **keras-team/keras** | [#23222](https://github.com/keras-team/keras/pull/23222) | 🟡 Open | class_weight training fix |
 | **crewAIInc/crewAI** | [#6377](https://github.com/crewAIInc/crewAI/pull/6377) | 🟡 Open | Tool JSON serialization fix |
+| **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | 🟡 Open | Resampling edge alignment fix |
+| **run-llama/llama_index** | [#22200](https://github.com/run-llama/llama_index/pull/22200) | 🟡 Open | OneDriveReader timeout fix |
 | **hwchase17/langchain** | Multiple | 🟡 Open | Core chain + memory fixes |
 
 <sub>400k+ combined stars across contributed repositories</sub>
