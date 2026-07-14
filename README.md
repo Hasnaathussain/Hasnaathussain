@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
  
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
-**22 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, `plotly.js`, `ultralytics`, and more. Open in `crewAI`, `keras`, `litellm`, and others.
+**23 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, `plotly.js`, `ultralytics`, and more. Open in `open-webui`, `crewAI`, `keras`, `litellm`, and others.
  
 </details>
 
@@ -94,10 +94,11 @@ I spend a lot of time reading source code of projects that millions of people re
 | **BerriAI/litellm** | [#31081](https://github.com/BerriAI/litellm/pull/31081) | 🟡 Open | Proxy model discovery budget bypass |
 | **keras-team/keras** | [#23222](https://github.com/keras-team/keras/pull/23222) | 🟡 Open | class_weight target labels validation |
 | **crewAIInc/crewAI** | [#6377](https://github.com/crewAIInc/crewAI/pull/6377) | 🟡 Open | Tool nested dict return serialization |
+| **open-webui/open-webui** | [#27069](https://github.com/open-webui/open-webui/pull/27069) | 🟡 Open | Respect admin UI web loader settings |
 | **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | 🟡 Open | Resampling edge alignment fix |
 | **run-llama/llama_index** | [#22200](https://github.com/run-llama/llama_index/pull/22200) | 🟡 Open | OneDriveReader sockets timeout |
 
-<sub>450k+ combined stars across contributed repositories</sub>
+<sub>490k+ combined stars across contributed repositories</sub>
 
 </div>
 
