@@ -18,13 +18,13 @@
 <details open>
 <summary><b>$ cat about.md</b></summary>
 <br/>
-
+ 
 I build **AI systems that actually work** — agents, orchestration pipelines, and the infra glue that keeps them running.
-
+ 
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
-
-**18 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, and more. Open in `crewAI`, `keras`, `litellm`, and others.
-
+ 
+**22 PRs** across flagship Python/AI repos. Merged into `pydantic-ai`, `sqlglot`, `plotly.js`, `ultralytics`, and more. Open in `crewAI`, `keras`, `litellm`, and others.
+ 
 </details>
 
 ---
@@ -87,16 +87,17 @@ I spend a lot of time reading source code of projects that millions of people re
 
 | Project | PR | Status | Impact |
 |:--------|:---|:------:|:-------|
-| **pydantic/pydantic-ai** | [#6098](https://github.com/pydantic/pydantic-ai/pull/6098) | ✅ Merged | Bedrock provider fix |
-| **tobymao/sqlglot** | [#7807](https://github.com/tobymao/sqlglot/pull/7807) | ✅ Merged | SQL AST logic fix |
-| **BerriAI/litellm** | [#31081](https://github.com/BerriAI/litellm/pull/31081) | 🟡 Open | Budget reset bypass fix |
-| **keras-team/keras** | [#23222](https://github.com/keras-team/keras/pull/23222) | 🟡 Open | class_weight training fix |
-| **crewAIInc/crewAI** | [#6377](https://github.com/crewAIInc/crewAI/pull/6377) | 🟡 Open | Tool JSON serialization fix |
+| **ultralytics/ultralytics** | [#25153](https://github.com/ultralytics/ultralytics/pull/25153) | ✅ Merged | RT-DETR decoder max_det fix |
+| **plotly/plotly.js** | [#7768](https://github.com/plotly/plotly.js/pull/7768) | ✅ Merged | Decimal exponent tick precision fix |
+| **pydantic/pydantic-ai** | [#6098](https://github.com/pydantic/pydantic-ai/pull/6098) | ✅ Merged | Bedrock user turns attachments fix |
+| **tobymao/sqlglot** | [#7807](https://github.com/tobymao/sqlglot/pull/7807) | ✅ Merged | Nested SQLite tuple parsing fix |
+| **BerriAI/litellm** | [#31081](https://github.com/BerriAI/litellm/pull/31081) | 🟡 Open | Proxy model discovery budget bypass |
+| **keras-team/keras** | [#23222](https://github.com/keras-team/keras/pull/23222) | 🟡 Open | class_weight target labels validation |
+| **crewAIInc/crewAI** | [#6377](https://github.com/crewAIInc/crewAI/pull/6377) | 🟡 Open | Tool nested dict return serialization |
 | **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | 🟡 Open | Resampling edge alignment fix |
-| **run-llama/llama_index** | [#22200](https://github.com/run-llama/llama_index/pull/22200) | 🟡 Open | OneDriveReader timeout fix |
-| **hwchase17/langchain** | Multiple | 🟡 Open | Core chain + memory fixes |
+| **run-llama/llama_index** | [#22200](https://github.com/run-llama/llama_index/pull/22200) | 🟡 Open | OneDriveReader sockets timeout |
 
-<sub>400k+ combined stars across contributed repositories</sub>
+<sub>450k+ combined stars across contributed repositories</sub>
 
 </div>
 
