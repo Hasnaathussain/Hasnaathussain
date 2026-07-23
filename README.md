@@ -93,6 +93,7 @@ I spend a lot of time reading source code of projects that millions of people re
 | **tobymao/sqlglot** | [#7807](https://github.com/tobymao/sqlglot/pull/7807) | ✅ Merged | Nested SQLite tuple parsing fix |
 | **BerriAI/litellm** | [#31081](https://github.com/BerriAI/litellm/pull/31081) | 🟡 Open | Proxy model discovery budget bypass |
 | **keras-team/keras** | [#23222](https://github.com/keras-team/keras/pull/23222) | 🟡 Open | class_weight target labels validation |
+| **bentoml/BentoML** | [#5671](https://github.com/bentoml/BentoML/pull/5671) | 🟡 Open | Fix sync API timeout capacity limiter leak |
 | **crewAIInc/crewAI** | [#6604](https://github.com/crewAIInc/crewAI/pull/6604) | 🟡 Open | LiteLLM response_format introspection fix |
 | **open-webui/open-webui** | [#27083](https://github.com/open-webui/open-webui/pull/27083) | 🟡 Open | Respect admin UI web loader settings |
 | **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | 🟡 Open | Resampling edge alignment fix |
