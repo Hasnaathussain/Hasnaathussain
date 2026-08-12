@@ -100,7 +100,7 @@ I spend a lot of time reading source code of projects that millions of people re
 | **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Open | Bare generator return-type handling |
 | **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
-  <sub>Live contribution state audited 2026-08-13 · 4 upstream merges · 9 open PRs</sub>
+  <sub>Live contribution state and DCO/CI audit refreshed 2026-08-13 · 4 upstream merges · 9 open PRs</sub>
 
 </div>
 
