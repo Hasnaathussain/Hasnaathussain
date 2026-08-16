@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
  
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
-**40 PR-backed contributions audited** across flagship Python/AI repositories. Four are merged upstream; nine remain open with current review or CI state tracked below. The focus is small, tested fixes in inference, serving, tooling, and data systems.
+**40 PR-backed contributions audited** across flagship Python/AI repositories. Four are merged upstream; eight remain open with current review or CI state tracked below. The focus is small, tested fixes in inference, serving, tooling, and data systems.
  
 </details>
 
@@ -94,13 +94,12 @@ I spend a lot of time reading source code of projects that millions of people re
 | **vllm-project/vllm** | [#49639](https://github.com/vllm-project/vllm/pull/49639) | Open | RMSNorm precision boundary for speculative decoding |
 | **bentoml/BentoML** | [#5671](https://github.com/bentoml/BentoML/pull/5671) | Open | Sync timeout capacity-limiter lifetime |
 | **crewAIInc/crewAI** | [#6604](https://github.com/crewAIInc/crewAI/pull/6604) | Open | LiteLLM capability-introspection fallback |
-| **run-llama/llama_index** | [#22310](https://github.com/run-llama/llama_index/pull/22310) | Open | MCP inline nested-object schemas |
 | **BerriAI/litellm** | [#32452](https://github.com/BerriAI/litellm/pull/32452) | Open | Embedding dimensions drop-params handling |
 | **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | Open | Business-day resampling edge alignment |
 | **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Open | Bare generator return-type handling |
 | **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
-  <sub>Live contribution state and DCO/CI audit refreshed 2026-08-13 · 4 upstream merges · 9 open PRs</sub>
+  <sub>Live contribution state and DCO/CI audit refreshed 2026-08-17 · 4 upstream merges · 8 open PRs</sub>
 
 </div>
 
