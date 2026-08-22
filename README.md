@@ -100,7 +100,8 @@ I spend a lot of time reading source code of projects that millions of people re
 | **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
 | **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Open | Custom physical-expression inputs in CASE evaluation |
-  <sub>Live contribution state and DCO/CI audit refreshed 2026-08-19 · 4 upstream merges · 9 open PRs</sub>
+| **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open | Cursor-paginated large span dataframe exports |
+  <sub>Live contribution state and DCO/CI audit refreshed 2026-08-22 · 4 upstream merges · 10 open PRs</sub>
 
 </div>
 
