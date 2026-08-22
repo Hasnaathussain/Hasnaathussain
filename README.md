@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
  
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
-**41 PR-backed contributions audited** across flagship Python/AI repositories. Four are merged upstream; nine remain open with current review or CI state tracked below. The focus is small, tested fixes in inference, serving, tooling, and data systems.
+**42 PR-backed contributions audited** across flagship Python/AI repositories. Four are merged upstream; ten remain open with current review or CI state tracked below. The focus is small, tested fixes in inference, serving, tooling, and data systems.
  
 </details>
 
