@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
  
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
-**47 contribution records audited** across flagship Python/AI repositories. Four are merged upstream; ten remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
+**47 contribution records audited** across flagship Python/AI repositories. Five are merged upstream; nine remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
  
 </details>
 
@@ -99,9 +99,9 @@ I spend a lot of time reading source code of projects that millions of people re
 | **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Open | Bare generator return-type handling |
 | **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
-| **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Open | Custom physical-expression inputs in CASE evaluation |
+| **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Merged | Custom physical-expression inputs in CASE evaluation |
 | **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open | Cursor-paginated large span dataframe exports |
-  <sub>Live contribution state and DCO/CI audit refreshed 2026-08-30 · 4 upstream merges · 10 open PRs</sub>
+  <sub>Live contribution state and DCO/CI audit refreshed 2026-09-04 · 5 upstream merges · 9 open PRs</sub>
 
 </div>
 
