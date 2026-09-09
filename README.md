@@ -24,8 +24,13 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
 **47 contribution records audited** across flagship Python/AI repositories. Five are merged upstream; nine remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
- 
+
 </details>
+
+### ◈ Available for Scoped Paid Work
+
+- [GitHub Actions security review](https://github.com/Hasnaathussain/github-actions-audit) — a dependency-free, fixed-scope first pass with file/line evidence and remediation notes.
+- [Portfolio](https://hasnaat.vercel.app/) — AI/ML, computer vision, and full-stack delivery.
 
 ---
 
