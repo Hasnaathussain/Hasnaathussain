@@ -27,13 +27,6 @@ I spend a lot of time reading source code of projects that millions of people re
 
 </details>
 
-### ◈ Available for Scoped Paid Work
-
-- [GitHub Actions security review](https://github.com/Hasnaathussain/github-actions-audit) — a dependency-free, fixed-scope first pass with file/line evidence and remediation notes.
-- [Portfolio](https://hasnaat.vercel.app/) — AI/ML, computer vision, and full-stack delivery.
-
----
-
 <!-- ── 3D CONTRIB GRAPH ──────────────────────────────────────────────── -->
 
 ### ◈ Contribution Landscape
