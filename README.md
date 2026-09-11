@@ -93,7 +93,7 @@ I spend a lot of time reading source code of projects that millions of people re
 | **bentoml/BentoML** | [#5671](https://github.com/bentoml/BentoML/pull/5671) | Open | Sync timeout capacity-limiter lifetime |
 | **crewAIInc/crewAI** | [#6604](https://github.com/crewAIInc/crewAI/pull/6604) | Open | LiteLLM capability-introspection fallback |
 | **BerriAI/litellm** | [#32452](https://github.com/BerriAI/litellm/pull/32452) | Open | Embedding dimensions drop-params handling |
-| **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | Open | Business-day resampling edge alignment; reviewer outputs confirmed |
+| **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | Open | Business-day resampling edge alignment; requested outputs reproduced |
 | **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Open | Bare generator return-type handling |
 | **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
