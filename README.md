@@ -97,7 +97,7 @@ I spend a lot of time reading source code of projects that millions of people re
 | **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Open | Bare generator return-type handling |
 | **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
-| **mlflow/mlflow** | [#25807](https://github.com/mlflow/mlflow/pull/25807) | Open · core approval recorded; CI follow-up pending | Shared-provider Strands foreign-span guard |
+| **mlflow/mlflow** | [#25807](https://github.com/mlflow/mlflow/pull/25807) | Open · core approval recorded; source checks clear; repository gate pending | Shared-provider Strands foreign-span guard |
 | **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Merged | Custom physical-expression inputs in CASE evaluation |
 | **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open | Cursor-paginated large span dataframe exports |
   <sub>Live contribution state and DCO/CI audit refreshed 2026-09-12 · 5 upstream merges · 10 open PRs</sub>
