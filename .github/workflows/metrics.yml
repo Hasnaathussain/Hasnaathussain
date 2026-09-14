@@ -12,6 +12,10 @@ on:
       - master
       - main
 
+concurrency:
+  group: github-metrics
+  cancel-in-progress: true
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
