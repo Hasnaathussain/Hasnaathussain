@@ -31,7 +31,7 @@ I spend a lot of time reading source code of projects that millions of people re
 
 - [nn_inference](https://github.com/Hasnaathussain/nn_inference) — C++17 ONNX CPU runtime with SIMD GEMM dispatch and activation memory planning.
 - [OmniChat Showcase](https://github.com/Hasnaathussain/OmniChat-Showcase) — sanitized case study for a CPU-first multimodal RAG assistant; the operational runtime remains private.
-- [Portfolio site](https://hasnaat-portfolio.vercel.app/) — live project and upstream-contribution index, refreshed from public GitHub metadata.
+- [Portfolio site](https://hasnaat-portfolio-gilt.vercel.app/) — live project and upstream-contribution index, refreshed from public GitHub metadata.
 
 <!-- ── 3D CONTRIB GRAPH ──────────────────────────────────────────────── -->
 
