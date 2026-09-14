@@ -11,6 +11,9 @@ on:
     branches:
       - master
       - main
+    paths:
+      - README.md
+      - .github/workflows/metrics.yml
 
 concurrency:
   group: github-metrics
@@ -19,6 +22,7 @@ concurrency:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: write
     steps:
