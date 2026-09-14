@@ -23,9 +23,15 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
  
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
-**48 contribution records audited** across flagship Python/AI repositories. Six are merged upstream; nine remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
+**48 contribution records audited** across flagship Python/AI repositories. Six are merged upstream; eight remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
 
 </details>
+
+### ◈ Selected Systems
+
+- [nn_inference](https://github.com/Hasnaathussain/nn_inference) — C++17 ONNX CPU runtime with SIMD GEMM dispatch and activation memory planning.
+- [OmniChat Showcase](https://github.com/Hasnaathussain/OmniChat-Showcase) — sanitized case study for a CPU-first multimodal RAG assistant; the operational runtime remains private.
+- [Portfolio site](https://hasnaat-portfolio.vercel.app/) — live project and upstream-contribution index, refreshed from public GitHub metadata.
 
 <!-- ── 3D CONTRIB GRAPH ──────────────────────────────────────────────── -->
 
@@ -94,13 +100,13 @@ I spend a lot of time reading source code of projects that millions of people re
 | **crewAIInc/crewAI** | [#6604](https://github.com/crewAIInc/crewAI/pull/6604) | Open | LiteLLM capability-introspection fallback |
 | **BerriAI/litellm** | [#32452](https://github.com/BerriAI/litellm/pull/32452) | Open | Embedding dimensions drop-params handling |
 | **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | Open · changes requested; examples answered; re-review pending | [#65740](https://github.com/pandas-dev/pandas/issues/65740) business-day resampling edge alignment; both requested modes return 1.5, 3.5, 5.5 and 47 checks pass |
-| **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Open | Bare generator return-type handling |
+| **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Closed · withdrawn as duplicate of [#5725](https://github.com/bentoml/BentoML/pull/5725) | Bare generator return-type handling |
 | **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
 | **mlflow/mlflow** | [#25807](https://github.com/mlflow/mlflow/pull/25807) | Merged · 91 checks pass | Shared-provider Strands foreign-span guard |
 | **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Merged | Custom physical-expression inputs in CASE evaluation |
 | **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open | Cursor-paginated large span dataframe exports |
-  <sub>Live contribution state and DCO/CI audit refreshed 2026-09-12 · 6 upstream merges · 9 open PRs</sub>
+  <sub>Live contribution state and DCO/CI audit refreshed 2026-09-14 · 6 upstream merges · 8 open PRs</sub>
 
 </div>
 
