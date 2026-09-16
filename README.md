@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
  
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
-**48 pipeline records audited** across flagship Python/AI repositories. The snapshot contains 42 upstream PR records: six are merged and eight remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
+**50 pipeline records audited** across flagship Python/AI repositories. The snapshot contains 43 upstream PR records: six are merged and nine remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
 
 </details>
 
@@ -106,7 +106,8 @@ I spend a lot of time reading source code of projects that millions of people re
 | **mlflow/mlflow** | [#25807](https://github.com/mlflow/mlflow/pull/25807) | Merged · 91 checks pass | Shared-provider Strands foreign-span guard |
 | **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Merged | Custom physical-expression inputs in CASE evaluation |
 | **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open | Cursor-paginated large span dataframe exports |
-  <sub>Live contribution state and DCO/CI audit refreshed 2026-09-14 · 6 upstream merges · 8 open PRs</sub>
+| **dstackai/dstack** | [#4293](https://github.com/dstackai/dstack/pull/4293) | Open · review required | Capacity-release wake-up for pending retry runs |
+  <sub>Live contribution state and DCO/CI audit refreshed 2026-09-16 · 6 upstream merges · 9 open PRs</sub>
 
 </div>
 
