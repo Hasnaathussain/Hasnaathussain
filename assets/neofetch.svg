@@ -118,7 +118,7 @@ text, tspan { white-space: pre; }
 
 <text x="558" y="298" font-size="13px">
 <tspan x="558" y="298">  <tspan class="dim">— </tspan><tspan class="head">GitHub Stats</tspan> <tspan class="dim">───────────────────────────────</tspan></tspan>
-<tspan x="558" y="318">  <tspan class="dim">. </tspan><tspan class="key">Repos</tspan><tspan class="dim">: ...... </tspan><tspan class="val">42</tspan></tspan>
+<tspan x="558" y="318">  <tspan class="dim">. </tspan><tspan class="key">Repos</tspan><tspan class="dim">: ...... </tspan><tspan class="val">41</tspan></tspan>
 <tspan x="558" y="336">  <tspan class="dim">. </tspan><tspan class="key">Followers</tspan><tspan class="dim">: ... </tspan><tspan class="val">13</tspan></tspan>
 <tspan x="558" y="354">  <tspan class="dim">. </tspan><tspan class="key">OSS PRs</tspan><tspan class="dim">: ...... </tspan><tspan class="val">14</tspan> <tspan class="dim">| Merged: </tspan><tspan class="add">6</tspan></tspan>
 <tspan x="558" y="372">  <tspan class="dim">. </tspan><tspan class="key">Open now</tspan><tspan class="dim">: .... </tspan><tspan class="val">8</tspan> <tspan class="dim">upstream PRs</tspan></tspan>
@@ -129,7 +129,7 @@ text, tspan { white-space: pre; }
 
 <text x="558" y="408" font-size="13px">
 <tspan x="558" y="408">  <tspan class="dim">— </tspan><tspan class="head">Currently Working On</tspan> <tspan class="dim">──────────────────</tspan></tspan>
-<tspan x="558" y="428">  <tspan class="dim">. </tspan><tspan class="key">Mission</tspan><tspan class="dim">: .... </tspan><tspan class="val">Build AI that actually works</tspan></tspan>
+<tspan x="558" y="428">  <tspan class="dim">. </tspan><tspan class="key">Mission</tspan><tspan class="dim">: .... </tspan><tspan class="val">Ship reliable AI infrastructure</tspan></tspan>
 <tspan x="558" y="446">  <tspan class="dim">. </tspan><tspan class="key">Stack</tspan><tspan class="dim">: ...... </tspan><tspan class="val">Agents + Memory + Infra</tspan></tspan>
 <tspan x="558" y="464">  <tspan class="dim">. </tspan><tspan class="key">OSS Goal</tspan><tspan class="dim">: ... </tspan><tspan class="val">Core infra, not sidequests</tspan></tspan>
 </text>
