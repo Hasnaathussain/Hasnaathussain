@@ -21,7 +21,7 @@
  
 I build **AI systems that actually work** — agents, orchestration pipelines, and the infra glue that keeps them running.
  
-I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
+I spend a lot of time reading source code of widely used open-source projects, finding bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
 Six focused fixes have merged upstream, and eight additional upstream PRs are currently in maintainer review or repository-controlled CI gates. The work stays deliberately narrow: tested changes in inference, serving, LLM tooling, data systems, and observability.
 
@@ -54,16 +54,6 @@ Six focused fixes have merged upstream, and eight additional upstream PRs are cu
 <img src="https://github-readme-streak-stats-hazel.vercel.app?user=Hasnaathussain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=7EE787&fire=E3B341&currStreakLabel=7EE787&sideLabels=484F58&sideNums=A5D6FF&currStreakNum=A5D6FF&dates=484F58&stroke=21262D" alt="GitHub Streak" height="160"/>
 &nbsp;&nbsp;
 <img src="https://github-stats-v2.vercel.app/api?username=Hasnaathussain&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=A5D6FF&text_color=C9D1D9" alt="GitHub Stats" height="160"/>
-
-</div>
-
-<!-- ── ACTIVITY GRAPH ────────────────────────────────────────────────── -->
-
-### ◈ Activity
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Hasnaathussain&theme=react-dark&bg_color=0d1117&color=7ee787&line=3fb950&point=a5d6ff&area=true&hide_border=true)](https://github.com/Hasnaathussain)
 
 </div>
 
