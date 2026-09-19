@@ -58,26 +58,26 @@ text, tspan { white-space: pre; }
 
 <!-- Left bottom stats block -->
 <text x="18" y="234" fill="#7ee787" font-size="13px">
-<tspan x="18" y="234" class="head">  — OSS Impact (22 Contributions) ————————————</tspan>
+<tspan x="18" y="234" class="head">  — OSS Impact (6 Merged · 8 Open) —————————</tspan>
 </text>
 <text x="18" y="258" font-size="13px">
 <tspan x="18" y="258">  <tspan fill="#e3b341">★</tspan> <tspan fill="#e3b341">ultralytics/ultralytics</tspan> <tspan class="dim">.. </tspan><tspan class="val">PR #25153 — MERGED ✓ RT-DETR fix</tspan></tspan>
 <tspan x="18" y="278">  <tspan fill="#e3b341">★</tspan> <tspan fill="#e3b341">plotly/plotly.js</tspan>  <tspan class="dim">..... </tspan><tspan class="val">PR #7768  — MERGED ✓ Tick format</tspan></tspan>
 <tspan x="18" y="298">  <tspan fill="#e3b341">★</tspan> <tspan fill="#e3b341">pydantic/pydantic-ai</tspan> <tspan class="dim">.. </tspan><tspan class="val">PR #6098  — MERGED ✓ Bedrock fix</tspan></tspan>
 <tspan x="18" y="318">  <tspan fill="#e3b341">★</tspan> <tspan fill="#e3b341">tobymao/sqlglot</tspan> <tspan class="dim">...... </tspan><tspan class="val">PR #7807  — MERGED ✓ SQL AST fix</tspan></tspan>
-<tspan x="18" y="338">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">BerriAI/litellm</tspan>  <tspan class="dim">...... </tspan><tspan class="val">PR #31081 — Budget bypass fix</tspan></tspan>
-<tspan x="18" y="358">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">pandas-dev/pandas</tspan> <tspan class="dim">..... </tspan><tspan class="val">PR #66209 — Resample edge fix</tspan></tspan>
-<tspan x="18" y="378">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">crewAIInc/crewAI</tspan> <tspan class="dim">..... </tspan><tspan class="val">PR #6377  — Tool JSON serialization</tspan></tspan>
-<tspan x="18" y="398">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">run-llama/llama_index</tspan> <tspan class="dim">. </tspan><tspan class="val">PR #22200 — OneDrive timeout</tspan></tspan>
-<tspan x="18" y="418">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">AnswerDotAI/fasthtml</tspan>  <tspan class="dim">.. </tspan><tspan class="val">PR #897   — Parameter naming fix</tspan></tspan>
-<tspan x="18" y="438">  <tspan fill="#484f58">···</tspan> <tspan fill="#484f58">+ 13 more PRs across 16 flagship repos (450k★+)</tspan></tspan>
+<tspan x="18" y="338">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">vllm-project/vllm</tspan> <tspan class="dim">..... </tspan><tspan class="val">PR #49639 — RMSNorm precision</tspan></tspan>
+<tspan x="18" y="358">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">bentoml/BentoML</tspan> <tspan class="dim">...... </tspan><tspan class="val">PR #5671  — Timeout limiter lifetime</tspan></tspan>
+<tspan x="18" y="378">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">BerriAI/litellm</tspan>  <tspan class="dim">...... </tspan><tspan class="val">PR #32452 — Embedding parameters</tspan></tspan>
+<tspan x="18" y="398">  <tspan class="add">⬆</tspan> <tspan fill="#e3b341">pandas-dev/pandas</tspan> <tspan class="dim">..... </tspan><tspan class="val">PR #66209 — Resample edge fix</tspan></tspan>
+<tspan x="18" y="418">  <tspan class="add">⬆</tspan> <tspan fill="#3fb950">getzep/graphiti</tspan> <tspan class="dim">....... </tspan><tspan class="val">PR #1604  — Client token config</tspan></tspan>
+<tspan x="18" y="438">  <tspan fill="#484f58">···</tspan> <tspan fill="#484f58">+ 3 more open PRs in review or CI gates</tspan></tspan>
 </text>
 
 <line x1="18" y1="452" x2="530" y2="452" stroke="#21262d" stroke-width="1"/>
 
 <!-- Contact block bottom -->
 <text x="18" y="474" font-size="13px">
-<tspan x="18" y="474">  <tspan class="dim">$</tspan> <tspan class="key">git</tspan> <tspan class="val">remote -v</tspan><tspan class="dim"> → hasnaat.hussain.2@gmail.com</tspan></tspan>
+<tspan x="18" y="474">  <tspan class="dim">$</tspan> <tspan class="key">git</tspan> <tspan class="val">remote -v</tspan><tspan class="dim"> → github.com/Hasnaathussain</tspan></tspan>
 <tspan x="18" y="494">  <tspan class="dim">$</tspan> <tspan class="key">curl</tspan> <tspan class="val">linkedin.com/in/hasnaathussain</tspan></tspan>
 <tspan x="18" y="514">  <tspan class="dim">$</tspan> <tspan class="key">ssh</tspan> <tspan class="val">github.com/Hasnaathussain</tspan></tspan>
 </text>
@@ -118,10 +118,10 @@ text, tspan { white-space: pre; }
 
 <text x="558" y="298" font-size="13px">
 <tspan x="558" y="298">  <tspan class="dim">— </tspan><tspan class="head">GitHub Stats</tspan> <tspan class="dim">───────────────────────────────</tspan></tspan>
-<tspan x="558" y="318">  <tspan class="dim">. </tspan><tspan class="key">Repos</tspan><tspan class="dim">: ...... </tspan><tspan class="val">27</tspan>  <tspan class="dim">{ Contributed: </tspan><tspan class="val">133</tspan><tspan class="dim"> }</tspan></tspan>
-<tspan x="558" y="336">  <tspan class="dim">. </tspan><tspan class="key">Followers</tspan><tspan class="dim">: ... </tspan><tspan class="val">11</tspan></tspan>
-<tspan x="558" y="354">  <tspan class="dim">. </tspan><tspan class="key">OSS PRs</tspan><tspan class="dim">: ...... </tspan><tspan class="val">22</tspan> <tspan class="dim">| Merged: </tspan><tspan class="add">4</tspan></tspan>
-<tspan x="558" y="372">  <tspan class="dim">. </tspan><tspan class="key">Repos Reached</tspan><tspan class="dim">:  </tspan><tspan class="val">450k★+</tspan> <tspan class="dim">combined</tspan></tspan>
+<tspan x="558" y="318">  <tspan class="dim">. </tspan><tspan class="key">Repos</tspan><tspan class="dim">: ...... </tspan><tspan class="val">42</tspan></tspan>
+<tspan x="558" y="336">  <tspan class="dim">. </tspan><tspan class="key">Followers</tspan><tspan class="dim">: ... </tspan><tspan class="val">13</tspan></tspan>
+<tspan x="558" y="354">  <tspan class="dim">. </tspan><tspan class="key">OSS PRs</tspan><tspan class="dim">: ...... </tspan><tspan class="val">14</tspan> <tspan class="dim">| Merged: </tspan><tspan class="add">6</tspan></tspan>
+<tspan x="558" y="372">  <tspan class="dim">. </tspan><tspan class="key">Open now</tspan><tspan class="dim">: .... </tspan><tspan class="val">8</tspan> <tspan class="dim">upstream PRs</tspan></tspan>
 </text>
 
 <!-- Separator -->
