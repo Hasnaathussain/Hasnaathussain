@@ -23,7 +23,7 @@ I build **AI systems that actually work** — agents, orchestration pipelines, a
  
 I spend a lot of time reading source code of projects that millions of people rely on, finding the bugs that nobody noticed, and shipping fixes. Not tutorials. Not wrappers. Core infra.
  
-**50 pipeline records audited** across flagship Python/AI repositories. The snapshot contains 43 upstream PR records: six are merged and nine remain open with current review or CI state tracked below. The remaining records are closed, duplicate, assignment-gated, or prepared branches awaiting permission. The focus is small, tested fixes in inference, serving, tooling, and data systems.
+Six focused fixes have merged upstream, and eight additional upstream PRs are currently in maintainer review or repository-controlled CI gates. The work stays deliberately narrow: tested changes in inference, serving, LLM tooling, data systems, and observability.
 
 </details>
 
@@ -57,20 +57,6 @@ I spend a lot of time reading source code of projects that millions of people re
 
 </div>
 
----
-
-<!-- ── LANGUAGES ─────────────────────────────────────────────────────── -->
-
-### ◈ Languages
-
-<div align="center">
-
-<img src="https://github-stats-v2.vercel.app/api/top-langs/?username=Hasnaathussain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9&langs_count=8&count_private=true" alt="Top Languages" height="150"/>
-
-</div>
-
----
-
 <!-- ── ACTIVITY GRAPH ────────────────────────────────────────────────── -->
 
 ### ◈ Activity
@@ -87,41 +73,31 @@ I spend a lot of time reading source code of projects that millions of people re
 
 ### ◈ Open Source Contributions
 
-<div align="center">
+#### Merged highlights
 
-| Project | PR | Status | Impact |
-|:--------|:---|:------:|:-------|
-| **ultralytics/ultralytics** | [#25153](https://github.com/ultralytics/ultralytics/pull/25153) | Merged | RT-DETR decoder max_det redesign |
-| **plotly/plotly.js** | [#7768](https://github.com/plotly/plotly.js/pull/7768) | Merged | Tick-format exponent precision fix |
-| **pydantic/pydantic-ai** | [#6098](https://github.com/pydantic/pydantic-ai/pull/6098) | Merged | Bedrock tool-result attachment fix |
-| **tobymao/sqlglot** | [#7807](https://github.com/tobymao/sqlglot/pull/7807) | Merged | Nested SQLite tuple parsing |
-| **vllm-project/vllm** | [#49639](https://github.com/vllm-project/vllm/pull/49639) | Open | RMSNorm precision boundary for speculative decoding |
-| **bentoml/BentoML** | [#5671](https://github.com/bentoml/BentoML/pull/5671) | Open | Sync timeout capacity-limiter lifetime |
-| **crewAIInc/crewAI** | [#6604](https://github.com/crewAIInc/crewAI/pull/6604) | Open | LiteLLM capability-introspection fallback |
-| **BerriAI/litellm** | [#32452](https://github.com/BerriAI/litellm/pull/32452) | Open | Embedding dimensions drop-params handling |
-| **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | Open · changes requested; examples answered; MERGEABLE/BLOCKED pending re-review | [#65740](https://github.com/pandas-dev/pandas/issues/65740) business-day resampling edge alignment; both requested modes return 1.5, 3.5, 5.5; 47 checks pass and five conditional package/publish jobs are skipped |
-| **BentoML** | [#5643](https://github.com/bentoml/BentoML/pull/5643) | Closed · withdrawn as duplicate of [#5725](https://github.com/bentoml/BentoML/pull/5725) | Bare generator return-type handling |
-| **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open | Anthropic pass-through parameter filtering |
-| **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open | OpenAI generic-client max_tokens config |
-| **mlflow/mlflow** | [#25807](https://github.com/mlflow/mlflow/pull/25807) | Merged · 91 checks pass | Shared-provider Strands foreign-span guard |
-| **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Merged | Custom physical-expression inputs in CASE evaluation |
-| **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open | Cursor-paginated large span dataframe exports |
+| Project | PR | Impact |
+|:--------|:---|:-------|
+| **ultralytics/ultralytics** | [#25153](https://github.com/ultralytics/ultralytics/pull/25153) | RT-DETR decoder `max_det` redesign |
+| **plotly/plotly.js** | [#7768](https://github.com/plotly/plotly.js/pull/7768) | Tick-format exponent precision fix |
+| **pydantic/pydantic-ai** | [#6098](https://github.com/pydantic/pydantic-ai/pull/6098) | Bedrock tool-result attachment fix |
+| **tobymao/sqlglot** | [#7807](https://github.com/tobymao/sqlglot/pull/7807) | Nested SQLite tuple parsing |
+| **mlflow/mlflow** | [#25807](https://github.com/mlflow/mlflow/pull/25807) | Shared-provider Strands foreign-span guard |
+| **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Custom physical-expression inputs in CASE evaluation |
+
+#### Current upstream work
+
+| Project | PR | State | Impact |
+|:--------|:---|:------|:-------|
+| **vllm-project/vllm** | [#49639](https://github.com/vllm-project/vllm/pull/49639) | Open · review required | RMSNorm precision boundary for speculative decoding |
+| **bentoml/BentoML** | [#5671](https://github.com/bentoml/BentoML/pull/5671) | Open · review required | Sync timeout capacity-limiter lifetime |
+| **BerriAI/litellm** | [#32452](https://github.com/BerriAI/litellm/pull/32452) | Open · review required | Embedding dimensions `drop_params` handling |
+| **pandas-dev/pandas** | [#66209](https://github.com/pandas-dev/pandas/pull/66209) | Open · changes requested | Business-day resampling edge alignment; requested examples answered |
+| **BerriAI/litellm** | [#31070](https://github.com/BerriAI/litellm/pull/31070) | Open · review required | Anthropic pass-through parameter filtering |
+| **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open · approved; workflow gate | OpenAI generic-client `max_tokens` config |
+| **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open · review required | Cursor-paginated large span dataframe exports |
 | **dstackai/dstack** | [#4293](https://github.com/dstackai/dstack/pull/4293) | Open · review required | Capacity-release wake-up for pending retry runs |
-  <sub>Live contribution state and DCO/CI audit refreshed 2026-09-16 · 6 upstream merges · 9 open PRs</sub>
 
-</div>
-
----
-
-<!-- ── SNAKE ──────────────────────────────────────────────────────────── -->
-
-### ◈ Contribution Grid
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/Hasnaathussain/Hasnaathussain/output/github-contribution-grid-snake-dark.svg)
-
-</div>
+<sub>Live upstream state refreshed 2026-09-19 · 6 merged · 8 open upstream PRs</sub>
 
 ---
 
