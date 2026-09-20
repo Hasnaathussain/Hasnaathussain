@@ -1,39 +1,18 @@
-<!-- ╔══════════════════════════════════════════════════════════════════╗ -->
-<!-- ║              HASNAAT HUSSAIN — GITHUB PROFILE                   ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════╝ -->
-
 <div align="center">
-
-<!-- Neofetch-style terminal card -->
 <img src="./assets/neofetch.svg" alt="Hasnaat Hussain — Terminal Card" width="100%"/>
-
+<p><strong>AI infrastructure · data systems · developer tooling</strong></p>
+<p><a href="https://hasnaat-portfolio-gilt.vercel.app/">Portfolio</a> · <a href="https://github.com/Hasnaathussain?tab=repositories">Repositories</a></p>
 </div>
 
-<br/>
+I build and debug AI infrastructure: inference, serving, LLM tooling, data systems, and observability. Six focused fixes have merged upstream; ten more are in maintainer review or repository-controlled CI gates. Each contribution is tied to a concrete failure mode and backed by tests.
 
----
-
-<!-- ── ABOUT ─────────────────────────────────────────────────────────── -->
-
-<details open>
-<summary><b>$ cat about.md</b></summary>
-<br/>
- 
-I build and debug production AI infrastructure: inference, serving, LLM tooling, data systems, and observability.
- 
-Six focused fixes have merged upstream, and ten additional upstream PRs are in maintainer review or repository-controlled CI gates. Each contribution is a small, tested change tied to a concrete failure mode.
-
-</details>
-
-### ◈ Selected Systems
+### Selected systems
 
 - [nn_inference](https://github.com/Hasnaathussain/nn_inference) — C++17 ONNX CPU runtime with SIMD GEMM dispatch and activation memory planning.
 - [OmniChat Showcase](https://github.com/Hasnaathussain/OmniChat-Showcase) — sanitized case study for a CPU-first multimodal RAG assistant; the operational runtime remains private.
 - [Portfolio site](https://hasnaat-portfolio-gilt.vercel.app/) — live project and upstream-contribution index, refreshed from public GitHub metadata.
 
-<!-- ── 3D CONTRIB GRAPH ──────────────────────────────────────────────── -->
-
-### ◈ Contribution Landscape
+### Contribution landscape
 
 <div align="center">
 
@@ -41,11 +20,7 @@ Six focused fixes have merged upstream, and ten additional upstream PRs are in m
 
 </div>
 
----
-
-<!-- ── OSS CONTRIBUTIONS ─────────────────────────────────────────────── -->
-
-### ◈ Open Source Contributions
+### Open source contributions
 
 #### Merged highlights
 
@@ -58,7 +33,9 @@ Six focused fixes have merged upstream, and ten additional upstream PRs are in m
 | **mlflow/mlflow** | [#25807](https://github.com/mlflow/mlflow/pull/25807) | Shared-provider Strands foreign-span guard |
 | **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Custom physical-expression inputs in CASE evaluation |
 
-#### Current upstream work
+<details>
+<summary><strong>Current upstream work · 10 open PRs</strong></summary>
+<br/>
 
 | Project | PR | State | Impact |
 |:--------|:---|:------|:-------|
@@ -75,24 +52,6 @@ Six focused fixes have merged upstream, and ten additional upstream PRs are in m
 
 <sub>Live upstream state refreshed 2026-09-20 · 6 merged · 10 open upstream PRs</sub>
 
----
+</details>
 
-<!-- ── METRICS ────────────────────────────────────────────────────────── -->
-
-### ◈ Full Metrics
-
-<div align="center">
-
-<img src="./github-metrics.svg" alt="GitHub Metrics" width="75%"/>
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Hasnaathussain&style=flat-square&color=7ee787&label=PROFILE+VIEWS&abbreviated=true)
-
-<sub><code>0D1117</code> · Focused fixes in AI and data infrastructure · <code>7EE787</code></sub>
-
-</div>
+<sub>Focused fixes in AI and data infrastructure. Public work is listed above; generated activity assets remain available in the repository.</sub>
