@@ -4,7 +4,7 @@
 <p><a href="https://hasnaat-portfolio-gilt.vercel.app/">Portfolio</a> · <a href="https://github.com/Hasnaathussain?tab=repositories">Repositories</a></p>
 </div>
 
-I build and debug AI infrastructure: inference, serving, LLM tooling, data systems, and observability. Six focused fixes have merged upstream; ten more are in maintainer review or repository-controlled CI gates. Each contribution is tied to a concrete failure mode and backed by tests.
+I build and debug AI infrastructure: inference, serving, LLM tooling, data systems, and observability. Six focused fixes have merged upstream; eleven more are in maintainer review or repository-controlled CI gates. Each contribution is tied to a concrete failure mode and backed by tests.
 
 ### Selected systems
 
@@ -34,7 +34,7 @@ I build and debug AI infrastructure: inference, serving, LLM tooling, data syste
 | **apache/datafusion** | [#24484](https://github.com/apache/datafusion/pull/24484) | Custom physical-expression inputs in CASE evaluation |
 
 <details>
-<summary><strong>Current upstream work · 10 open PRs</strong></summary>
+<summary><strong>Current upstream work · 11 open PRs</strong></summary>
 <br/>
 
 | Project | PR | State | Impact |
@@ -49,8 +49,9 @@ I build and debug AI infrastructure: inference, serving, LLM tooling, data syste
 | **dstackai/dstack** | [#4293](https://github.com/dstackai/dstack/pull/4293) | Open · review required | Capacity-release wake-up for pending retry runs |
 | **OpenHands/OpenHands** | [#17570](https://github.com/OpenHands/OpenHands/pull/17570) | Open · review required; human note pending | Monaco diff-model teardown lifecycle |
 | **OpenHands/OpenHands** | [#17573](https://github.com/OpenHands/OpenHands/pull/17573) | Open · review required; human note pending | Restore terminal history from persisted conversation events |
+| **OpenHands/OpenHands** | [#17575](https://github.com/OpenHands/OpenHands/pull/17575) | Open · review required; human note pending | Mobile automation edit-dialog viewport and scrolling |
 
-<sub>Live upstream state refreshed 2026-09-20 · 6 merged · 10 open upstream PRs</sub>
+<sub>Live upstream state refreshed 2026-09-20 · 6 merged · 11 open upstream PRs</sub>
 
 </details>
 
