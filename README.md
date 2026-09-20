@@ -71,7 +71,7 @@ Six focused fixes have merged upstream, and eight additional upstream PRs are in
 | **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open · review required | Cursor-paginated large span dataframe exports |
 | **dstackai/dstack** | [#4293](https://github.com/dstackai/dstack/pull/4293) | Open · review required | Capacity-release wake-up for pending retry runs |
 
-<sub>Live upstream state refreshed 2026-09-19 · 6 merged · 8 open upstream PRs</sub>
+<sub>Live upstream state refreshed 2026-09-20 · 6 merged · 8 open upstream PRs</sub>
 
 ---
 
