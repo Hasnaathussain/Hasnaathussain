@@ -21,7 +21,7 @@
  
 I build and debug production AI infrastructure: inference, serving, LLM tooling, data systems, and observability.
  
-Six focused fixes have merged upstream, and nine additional upstream PRs are in maintainer review or repository-controlled CI gates. Each contribution is a small, tested change tied to a concrete failure mode.
+Six focused fixes have merged upstream, and ten additional upstream PRs are in maintainer review or repository-controlled CI gates. Each contribution is a small, tested change tied to a concrete failure mode.
 
 </details>
 
@@ -71,8 +71,9 @@ Six focused fixes have merged upstream, and nine additional upstream PRs are in 
 | **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open · review required | Cursor-paginated large span dataframe exports |
 | **dstackai/dstack** | [#4293](https://github.com/dstackai/dstack/pull/4293) | Open · review required | Capacity-release wake-up for pending retry runs |
 | **OpenHands/OpenHands** | [#17570](https://github.com/OpenHands/OpenHands/pull/17570) | Open · review required; human note pending | Monaco diff-model teardown lifecycle |
+| **OpenHands/OpenHands** | [#17573](https://github.com/OpenHands/OpenHands/pull/17573) | Open · review required; human note pending | Restore terminal history from persisted conversation events |
 
-<sub>Live upstream state refreshed 2026-09-20 · 6 merged · 9 open upstream PRs</sub>
+<sub>Live upstream state refreshed 2026-09-20 · 6 merged · 10 open upstream PRs</sub>
 
 ---
 
