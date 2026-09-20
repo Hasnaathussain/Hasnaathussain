@@ -50,7 +50,7 @@ I build and debug AI infrastructure: inference, serving, LLM tooling, data syste
 | **OpenHands/OpenHands** | [#17570](https://github.com/OpenHands/OpenHands/pull/17570) | Open · review required; human note pending | Monaco diff-model teardown lifecycle |
 | **OpenHands/OpenHands** | [#17573](https://github.com/OpenHands/OpenHands/pull/17573) | Open · review required; human note pending | Restore terminal history from persisted conversation events |
 | **OpenHands/OpenHands** | [#17575](https://github.com/OpenHands/OpenHands/pull/17575) | Open · review required; human note pending | Mobile automation edit-dialog viewport and scrolling |
-| **1mcp-app/agent** | [#557](https://github.com/1mcp-app/agent/pull/557) | Open · hosted checks and review pending | MCP 2026 era-aware conformance verdicts |
+| **1mcp-app/agent** | [#557](https://github.com/1mcp-app/agent/pull/557) | Open · CodeRabbit pass; maintainer review pending | MCP 2026 era-aware conformance verdicts |
 
 <sub>Live upstream state refreshed 2026-09-21 · 6 merged · 12 open upstream PRs</sub>
 
