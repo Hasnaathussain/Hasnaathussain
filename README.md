@@ -47,9 +47,9 @@ I build and debug AI infrastructure: inference, serving, LLM tooling, data syste
 | **getzep/graphiti** | [#1604](https://github.com/getzep/graphiti/pull/1604) | Open · maintainer-approved; behind/workflow gate | OpenAI generic-client `max_tokens` config |
 | **Arize-ai/phoenix** | [#15584](https://github.com/Arize-ai/phoenix/pull/15584) | Open · review required | Cursor-paginated large span dataframe exports |
 | **dstackai/dstack** | [#4293](https://github.com/dstackai/dstack/pull/4293) | Open · review required | Capacity-release wake-up for pending retry runs |
-| **OpenHands/OpenHands** | [#17570](https://github.com/OpenHands/OpenHands/pull/17570) | Open · review required; human note pending | Monaco diff-model teardown lifecycle |
-| **OpenHands/OpenHands** | [#17573](https://github.com/OpenHands/OpenHands/pull/17573) | Open · review required; human note pending | Restore terminal history from persisted conversation events |
-| **OpenHands/OpenHands** | [#17575](https://github.com/OpenHands/OpenHands/pull/17575) | Open · review required; human note pending | Mobile automation edit-dialog viewport and scrolling |
+| **OpenHands/OpenHands** | [#17570](https://github.com/OpenHands/OpenHands/pull/17570) | Open · review required; hosted Ubuntu/Windows pass; human note and browser evidence pending | Monaco diff-model teardown lifecycle |
+| **OpenHands/OpenHands** | [#17573](https://github.com/OpenHands/OpenHands/pull/17573) | Open · review required; hosted Ubuntu/Windows pass; human note pending | Restore terminal history from persisted conversation events |
+| **OpenHands/OpenHands** | [#17575](https://github.com/OpenHands/OpenHands/pull/17575) | Open · review required; hosted Ubuntu/Windows pass; human note and before/after evidence pending | Mobile automation edit-dialog viewport and scrolling |
 | **1mcp-app/agent** | [#557](https://github.com/1mcp-app/agent/pull/557) | Open · CodeRabbit pass; maintainer review pending | MCP 2026 era-aware conformance verdicts |
 
 <sub>Live upstream state refreshed 2026-09-21 · 6 merged · 12 open upstream PRs</sub>
