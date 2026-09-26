@@ -1,19 +1,7 @@
 name: GitHub Metrics
 
 on:
-  # Schedule updates daily at midnight
-  schedule:
-    - cron: "0 0 * * *"
-  # Allow manual trigger
   workflow_dispatch:
-  # Run on push to master
-  push:
-    branches:
-      - master
-      - main
-    paths:
-      - README.md
-      - .github/workflows/metrics.yml
 
 concurrency:
   group: github-metrics
