@@ -1,25 +1,24 @@
 <div align="center">
-  <img src="./assets/neofetch.svg" alt="Terminal profile for Hasnaat Hussain, focused on AI infrastructure, inference, retrieval, and data systems" width="100%" />
+  <img src="./assets/neofetch.svg" alt="Terminal profile with an ASCII portrait and a focus on agent infrastructure, inference runtimes, and data systems" width="100%" />
   <p>
     <a href="https://hasnaat-portfolio-gilt.vercel.app/">Portfolio</a> ·
+    <a href="https://www.linkedin.com/in/hasnaathussain">LinkedIn</a> ·
     <a href="https://github.com/Hasnaathussain?tab=repositories">Projects</a>
   </p>
 </div>
 
-I contribute to AI infrastructure and data systems, with a focus on inference, retrieval, and correctness at system boundaries. I look for concrete failure cases and keep fixes narrowly scoped with regression tests.
+I work on reliable AI/ML systems: agent infrastructure, provider integrations, inference runtimes, and the data and observability paths around them. I like starting from a concrete failure, narrowing the fix, and leaving a regression test behind.
 
-### Selected merged contributions
+### Selected upstream work
 
-| Project | Contribution |
-|:--|:--|
-| [Ultralytics](https://github.com/ultralytics/ultralytics/pull/25153) | Honor max_det in RT-DETR decoder export and validation |
-| [Plotly.js](https://github.com/plotly/plotly.js/pull/7768) | Preserve exponent formatting for small tick values |
-| [Pydantic AI](https://github.com/pydantic/pydantic-ai/pull/6098) | Handle Bedrock tool results with co-located attachments |
-| [SQLGlot](https://github.com/tobymao/sqlglot/pull/7807) | Parse parenthesized multi-expression input as a tuple |
-| [MLflow](https://github.com/mlflow/mlflow/pull/25807) | Keep Strands autologging safe around foreign OpenTelemetry spans |
-| [Apache DataFusion](https://github.com/apache/datafusion/pull/24484) | Evaluate CASE with custom physical-expression inputs |
+- [Pydantic AI #6098](https://github.com/pydantic/pydantic-ai/pull/6098) — Bedrock tool results with co-located attachments.
+- [MLflow #25807](https://github.com/mlflow/mlflow/pull/25807) — Strands autologging around foreign OpenTelemetry spans.
+- [Ultralytics #25153](https://github.com/ultralytics/ultralytics/pull/25153) — RT-DETR `max_det` handling in export and validation.
+- [Apache DataFusion #24484](https://github.com/apache/datafusion/pull/24484) — `CASE` evaluation for custom physical expressions.
+- [Plotly.js #7768](https://github.com/plotly/plotly.js/pull/7768) — exponent formatting for small tick values.
+- [SQLGlot #7807](https://github.com/tobymao/sqlglot/pull/7807) — parenthesized SQLite tuple parsing.
 
-### Projects
+### Independent builds
 
-- [nn_inference](https://github.com/Hasnaathussain/nn_inference) — C++17 ONNX CPU inference runtime with SIMD GEMM and activation memory planning.
-- [OmniChat Showcase](https://github.com/Hasnaathussain/OmniChat-Showcase) — a case study for a CPU-first multimodal RAG assistant.
+- [nn_inference](https://github.com/Hasnaathussain/nn_inference) — C++17 ONNX CPU runtime with SIMD GEMM and activation memory planning.
+- [OmniChat Showcase](https://github.com/Hasnaathussain/OmniChat-Showcase) — sanitized case study for a CPU-first multimodal RAG assistant.
