@@ -11,6 +11,7 @@ I work on reliable AI/ML systems: agent infrastructure, provider integrations, i
 
 ### Selected upstream work
 
+- [1MCP Agent #557](https://github.com/1mcp-app/agent/pull/557) — protocol-era-aware MCP conformance checks.
 - [Pydantic AI #6098](https://github.com/pydantic/pydantic-ai/pull/6098) — Bedrock tool results with co-located attachments.
 - [MLflow #25807](https://github.com/mlflow/mlflow/pull/25807) — Strands autologging around foreign OpenTelemetry spans.
 - [Ultralytics #25153](https://github.com/ultralytics/ultralytics/pull/25153) — RT-DETR `max_det` handling in export and validation.
