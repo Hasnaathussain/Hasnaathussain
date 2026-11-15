@@ -7,19 +7,21 @@
   </p>
 </div>
 
-I work on reliable AI/ML systems: agent infrastructure, provider integrations, inference runtimes, and the data and observability paths around them. I like starting from a concrete failure, narrowing the fix, and leaving a regression test behind.
+I build and debug AI and data infrastructure: agent tooling, model integrations, and the execution paths underneath them. My work starts with a reproducible failure and ends with a focused fix and regression coverage.
 
-### Selected upstream work
+### Merged upstream work
 
-- [1MCP Agent #557](https://github.com/1mcp-app/agent/pull/557) — protocol-era-aware MCP conformance checks.
-- [Pydantic AI #6098](https://github.com/pydantic/pydantic-ai/pull/6098) — Bedrock tool results with co-located attachments.
-- [MLflow #25807](https://github.com/mlflow/mlflow/pull/25807) — Strands autologging around foreign OpenTelemetry spans.
-- [Ultralytics #25153](https://github.com/ultralytics/ultralytics/pull/25153) — RT-DETR `max_det` handling in export and validation.
-- [Apache DataFusion #24484](https://github.com/apache/datafusion/pull/24484) — `CASE` evaluation for custom physical expressions.
-- [Plotly.js #7768](https://github.com/plotly/plotly.js/pull/7768) — exponent formatting for small tick values.
-- [SQLGlot #7807](https://github.com/tobymao/sqlglot/pull/7807) — parenthesized SQLite tuple parsing.
+| Project | Contribution |
+| --- | --- |
+| [Pydantic AI](https://github.com/pydantic/pydantic-ai/pull/6098) | Bedrock tool results with co-located attachments |
+| [MLflow](https://github.com/mlflow/mlflow/pull/25807) | Strands autologging with foreign OpenTelemetry spans |
+| [1MCP Agent](https://github.com/1mcp-app/agent/pull/557) | Protocol-era-aware conformance checks |
+| [Apache DataFusion](https://github.com/apache/datafusion/pull/24484) | `CASE` evaluation for custom physical expressions |
+| [SQLGlot](https://github.com/tobymao/sqlglot/pull/7807) | Parenthesized SQLite tuple parsing |
+| [Ultralytics](https://github.com/ultralytics/ultralytics/pull/25153) | RT-DETR `max_det` in export and validation |
+| [Plotly.js](https://github.com/plotly/plotly.js/pull/7768) | Exponent formatting for small tick values |
 
-### Independent builds
+### Projects
 
 - [nn_inference](https://github.com/Hasnaathussain/nn_inference) — C++17 ONNX CPU runtime with SIMD GEMM and activation memory planning.
 - [OmniChat Showcase](https://github.com/Hasnaathussain/OmniChat-Showcase) — sanitized case study for a CPU-first multimodal RAG assistant.
