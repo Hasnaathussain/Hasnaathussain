@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/neofetch.svg" alt="Terminal profile with an ASCII portrait and a focus on agent infrastructure, inference runtimes, and data systems" width="100%" />
+  <img src="./assets/neofetch.svg" alt="Green HASNAAT terminal profile with verified upstream contributions and AI and data infrastructure focus" width="100%" />
   <p>
     <a href="https://hasnaat-portfolio-gilt.vercel.app/">Portfolio</a> ·
     <a href="https://www.linkedin.com/in/hasnaathussain">LinkedIn</a> ·
